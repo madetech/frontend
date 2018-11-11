@@ -8,7 +8,7 @@ export default function Header () {
   return (
     <header className='header'>
       <div className='header__inner'>
-        <div className='navbar navbar-expand-lg'>
+        <div className='navbar navbar-expand-lg p-0'>
           <div className='navbar-brand mr-auto'>
             <img alt='Made Tech' itemProp='logo' src={logo} width='200px' />
           </div>
