@@ -1,11 +1,29 @@
 {
   "name": "@madetech/frontend",
   "version": "1.0.0",
-  "description": "Made Tech frontend components",
-  "main": "index.js",
+  "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "author": "Made Tech <hello@madetech.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@madetech/marketing-assets": "file:../marketing-assets"
+  },
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-scripts": "^2.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
