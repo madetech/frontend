@@ -7,6 +7,7 @@ import './all.scss'
 function App () {
   return (
     <main>
+      <Components.TopBar />
       <Components.Header />
     </main>
   )

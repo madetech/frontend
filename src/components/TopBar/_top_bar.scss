@@ -1,0 +1,23 @@
+.top_bar {
+  background: #252525;
+  color: #fff;
+  display: none;
+  font-size: .9em;
+  padding: 1em 0;
+
+  @include media-breakpoint-up(sm) {
+    display: block;
+  }
+}
+
+.top_bar a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.top_bar .space::after {
+  content: '\2022';
+  color: #fff;
+  margin-left: 6px;
+  margin-right: 9px;
+}
