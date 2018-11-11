@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './_header_nav.scss'
-
 export default function Nav () {
   return (
     <div className='header_nav'>

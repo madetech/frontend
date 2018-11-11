@@ -3,8 +3,6 @@ import logo from '@madetech/marketing-assets/logos/made-tech-logo-colour.png'
 import Nav from './Nav'
 
 import 'bootstrap/js/dist/collapse'
-import 'bootstrap/scss/bootstrap.scss'
-import './_header.scss'
 
 export default function Header () {
   return (
@@ -28,7 +26,7 @@ export default function Header () {
           </button>
 
           <div className='collapse navbar-collapse' id='navbarNavDropdown'>
-            <div class='ml-auto'>
+            <div className='ml-auto'>
               <Nav />
             </div>
           </div>
