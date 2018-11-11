@@ -1,0 +1,12 @@
+@import "bootstrap/scss/bootstrap-grid.scss";
+
+.header {
+  @extend .container;
+}
+
+.header__inner {
+  @extend .row;
+  @extend .align-items-center;
+
+  padding: 2em 0;
+}
