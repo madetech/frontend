@@ -12,7 +12,7 @@
   "author": "Made Tech <hello@madetech.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@madetech/marketing-assets": "file:../marketing-assets"
+    "@madetech/marketing-assets": "^1.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.10.0",
