@@ -1,3 +1,5 @@
+@import "bootstrap/scss/bootstrap-grid.scss";
+
 @font-face {
   font-family: "neuzeits-book";
   src: url("~@madetech/marketing-assets/fonts/neuzeits-book.eot");
@@ -10,14 +12,16 @@
 }
 
 .header_nav {
-  font-family: "neuzeits-bookbook",Helvetica,Arial,sans-serif;
+  font-family: "neuzeits-bookbook", Helvetica, Arial, sans-serif;
 }
 
 .header_nav a {
   color: #333;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 9em;
+    text-align: center;
+  }
 }
 
 .header_nav a:hover,

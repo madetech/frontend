@@ -5,17 +5,17 @@ import './_header_nav.scss'
 export default function Nav () {
   return (
     <div className='header_nav'>
-      <nav className='nav align-items-center'>
-        <a href='/agile-transformation' className='ml-auto nav-link'>
-          Agile Team<br />Transformation
+      <nav className='navbar-nav align-items-lg-center'>
+        <a href='/agile-transformation' className='nav-link'>
+          Agile Team Transformation
         </a>
 
         <a href='/software-development' className='nav-link'>
-          Software<br />Development
+          Software Development
         </a>
 
         <a href='/continuous-delivery' className='nav-link'>
-          Continuous<br />Delivery
+          Continuous Delivery
         </a>
 
         <a href='/devops' className='nav-link'>
@@ -23,7 +23,7 @@ export default function Nav () {
         </a>
 
         <a href='/support-and-maintainance' className='nav-link'>
-          Support &amp;<br />Maintenance
+          Support &amp; Maintenance
         </a>
       </nav>
     </div>
