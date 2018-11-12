@@ -1,9 +1,9 @@
 @font-face {
   font-family: "neuzeit-s-book";
-  src: url("~@madetech/marketing-assets/fonts/neuzeit-s-book.eot");
-  src: url("~@madetech/marketing-assets/fonts/neuzeit-s-book.eot?#iefix") format("embedded-opentype"),
-       url("~@madetech/marketing-assets/fonts/neuzeit-s-book.woff") format("woff"),
-       url("~@madetech/marketing-assets/fonts/neuzeit-s-book.ttf") format("truetype");
+  src: marketing-font-url("neuzeit-s-book.eot");
+  src: marketing-font-url("neuzeit-s-book.eot?#iefix") format("embedded-opentype"),
+       marketing-font-url("neuzeit-s-book.woff") format("woff"),
+       marketing-font-url("neuzeit-s-book.ttf") format("truetype");
   font-weight:normal;
   font-style:normal;
   font-variant:normal;
@@ -11,10 +11,10 @@
 
 @font-face {
   font-family: "neuzeit-gro-reg";
-  src: url("~@madetech/marketing-assets/fonts/neuzeit-gro-reg.eot");
-  src: url("~@madetech/marketing-assets/fonts/neuzeit-gro-reg.eot?#iefix") format("embedded-opentype"),
-       url("~@madetech/marketing-assets/fonts/neuzeit-gro-reg.woff") format("woff"),
-       url("~@madetech/marketing-assets/fonts/neuzeit-gro-reg.ttf") format("truetype");
+  src: marketing-font-url("neuzeit-gro-reg.eot");
+  src: marketing-font-url("neuzeit-gro-reg.eot?#iefix") format("embedded-opentype"),
+       marketing-font-url("neuzeit-gro-reg.woff") format("woff"),
+       marketing-font-url("neuzeit-gro-reg.ttf") format("truetype");
   font-weight:normal;
   font-style:normal;
   font-variant:normal;
