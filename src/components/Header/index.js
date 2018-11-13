@@ -2,8 +2,6 @@ import React from 'react'
 import logo from '@madetech/marketing-assets/logos/made-tech-logo-colour.png'
 import Nav from './Nav'
 
-import 'bootstrap/js/dist/collapse'
-
 export default function Header () {
   return (
     <header className='header'>

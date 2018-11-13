@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Components from './components'
 
 import './index.scss'
+import './madetech-frontend.js'
 
 function App () {
   return (
