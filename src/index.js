@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Components from './components'
 
-import './all.scss'
+import './index.scss'
 
 function App () {
   return (
