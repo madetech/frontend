@@ -8581,15 +8581,8 @@ body {
 .top_bar {
   background: #252525;
   color: #fff;
-  display: none;
   font-size: .9em;
-  padding: 1em 0;
-}
-
-@media (min-width: 576px) {
-  .top_bar {
-    display: block;
-  }
+  min-height: .3em;
 }
 
 .top_bar a {
@@ -8602,6 +8595,17 @@ body {
   color: #fff;
   margin-left: 6px;
   margin-right: 9px;
+}
+
+.top_bar__inner {
+  display: none;
+  padding: 1em 0;
+}
+
+@media (min-width: 768px) {
+  .top_bar__inner {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=madetech-frontend.css.map */
