@@ -8519,6 +8519,15 @@ a.text-dark:hover, a.text-dark:focus {
   font-variant: normal;
 }
 
+@font-face {
+  font-family: "neuzeit-gro-bold";
+  src: url("../fonts/neuzeit-gro-bold.eot");
+  src: url("../fonts/neuzeit-gro-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/neuzeit-gro-bold.woff") format("woff"), url("../fonts/neuzeit-gro-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: no-common-ligatures;

@@ -19,3 +19,14 @@
   font-style:normal;
   font-variant:normal;
 }
+
+@font-face {
+  font-family: "neuzeit-gro-bold";
+  src: marketing-font-url("neuzeit-gro-bold.eot");
+  src: marketing-font-url("neuzeit-gro-bold.eot?#iefix") format("embedded-opentype"),
+       marketing-font-url("neuzeit-gro-bold.woff") format("woff"),
+       marketing-font-url("neuzeit-gro-bold.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+  font-variant:normal;
+}
