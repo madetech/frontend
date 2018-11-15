@@ -7,7 +7,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
   "author": "Made Tech <hello@madetech.com>",
   "license": "UNLICENSED",
@@ -21,7 +23,8 @@
     "node-sass": "^4.10.0",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.1",
+    "react-styleguidist": "^8.0.4"
   },
   "browserslist": [
     ">0.2%",
