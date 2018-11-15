@@ -32,6 +32,7 @@ function App () {
     <main>
       <Components.TopBar />
       <Components.Header navLinks={<NavLinks />} />
+      <Components.Header logoText='Learn Tech' navLinks={<NavLinks />} />
     </main>
   )
 }
