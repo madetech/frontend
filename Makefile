@@ -1,4 +1,4 @@
-all: clean dist
+all: clean dist docs/styleguide
 
 dist:
 	mkdir -p dist/{css,fonts,js,images}
@@ -13,5 +13,13 @@ dist:
 
 	cp public/favicon.ico dist/images/
 
+docs/styleguide:
+	npm run styleguide:build
+	cp public/favicon.ico docs/
+
+publish:
+	npm publish --access public
+
 clean:
+	rm -rf docs/styleguide/
 	rm -rf dist/
