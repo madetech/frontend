@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '@madetech/marketing-assets/logos/made-tech-logo-colour.png'
 import Nav from './Nav'
 
-export default function Header () {
+export default function Header ({ navLinks }) {
   return (
     <header className='header'>
       <div className='header__inner'>
@@ -25,7 +25,9 @@ export default function Header () {
 
           <div className='collapse navbar-collapse' id='navbarNavDropdown'>
             <div className='ml-auto'>
-              <Nav />
+              <Nav>
+                {navLinks}
+              </Nav>
             </div>
           </div>
         </div>
