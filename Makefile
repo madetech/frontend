@@ -15,7 +15,7 @@ dist:
 
 docs/styleguide:
 	npm run styleguide:build
-	cp public/favicon.ico docs/
+	cp public/favicon.ico docs/styleguide/
 
 publish:
 	npm publish --access public

@@ -17,5 +17,8 @@ module.exports = {
       __dirname,
       'src/styleguide/LogoRenderer'
     )
+  },
+  template: {
+    favicon: 'favicon.ico'
   }
 }
