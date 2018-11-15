@@ -1,14 +1,17 @@
 import React from 'react'
-import logo from '@madetech/marketing-assets/logos/made-tech-logo-colour.png'
+import Logo from './Logo'
+import LogoType from './LogoType'
 import Nav from './Nav'
 
-export default function Header ({ navLinks }) {
+export default function Header ({ logoText, navLinks }) {
+  const logo = logoText ? <LogoType text={logoText} /> : <Logo />
+
   return (
     <header className='header'>
       <div className='header__inner'>
         <div className='navbar navbar-expand-lg p-0'>
           <div className='navbar-brand mr-auto'>
-            <img alt='Made Tech' itemProp='logo' src={logo} width='200px' />
+            {logo}
           </div>
 
           <button

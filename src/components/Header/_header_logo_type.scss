@@ -1,0 +1,9 @@
+.header_logo_type__text {
+  font-family: "neuzeit-gro-bold";
+  font-size: 1.4em;
+  font-weight: normal;
+
+  @media only screen and (max-width: var(--breakpoint-md)) {
+    font-size: 1.8em;
+  }
+}
