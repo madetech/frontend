@@ -1,6 +1,6 @@
 {
   "name": "@madetech/frontend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
   "main": "src/index.js",
   "scripts": {

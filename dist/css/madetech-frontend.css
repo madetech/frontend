@@ -5959,7 +5959,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex, .header_logo_type {
   display: flex !important;
 }
 
@@ -6236,7 +6236,7 @@ button.bg-dark:focus {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.align-items-center, .header_logo_type {
   align-items: center !important;
 }
 
