@@ -9,7 +9,7 @@ module.exports = {
     '**/*.d.ts'
   ],
   require: [
-    path.join(__dirname, 'src/index.scss')
+    path.join(__dirname, 'src/styleguide/all.scss')
   ],
   styleguideDir: 'docs/styleguide',
   styleguideComponents: {

@@ -4,10 +4,7 @@
   "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
   "main": "src/index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
@@ -25,11 +22,5 @@
     "react-dom": "^16.7.0-alpha.0",
     "react-scripts": "^2.1.1",
     "react-styleguidist": "^8.0.4"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
