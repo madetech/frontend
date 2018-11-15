@@ -11,5 +11,7 @@ dist:
 	cat node_modules/bootstrap/js/dist/util.js >> dist/js/madetech-frontend.js
 	cat node_modules/bootstrap/js/dist/collapse.js >> dist/js/madetech-frontend.js
 
+	cp public/favicon.ico dist/images/
+
 clean:
 	rm -rf dist/
