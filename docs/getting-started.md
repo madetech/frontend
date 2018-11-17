@@ -36,3 +36,41 @@ We recommend the following steps are take with a themeless install of Jekyll:
 If you have installed `github-pages` gem locally you can now run `bundle exec jekyll s` and you will see a Made Tech theme.
 
 Made Tech Frontend's documentation site is built with GitHub Pages so take a look at the [`docs/`](https://github.com/madetech/frontend/tree/master/docs) directory for another example.
+
+## Using as component library
+
+If you are building a React based application or site then you can take advantage of the React components provided by this kit.
+
+In order to use as a component library you first need to add `@madetech/frontend` NPM module to your application:
+
+```
+npm i @madetech/frontend
+```
+
+Once it's installed you can then get to work:
+
+```jsx
+import { Header } from '@madetech/frontend'
+
+export default function Layout ({ children }) {
+  return (
+    <div>
+      <Header
+        logoHref='/'
+        logoText='Learn Tech'
+        navLinks={[
+          <a href='/' className='nav-link'>
+            Getting Started
+          </a>,
+
+          <a href='/help' className='nav-link'>
+            Ask for Help
+          </a>
+        ]}
+        />
+
+      {children}
+    </div>
+  )
+}
+```
