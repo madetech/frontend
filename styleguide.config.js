@@ -20,10 +20,7 @@ module.exports = {
   ],
   styleguideDir: 'docs/styleguide',
   styleguideComponents: {
-    LogoRenderer: path.join(
-      __dirname,
-      'src/styleguide/LogoRenderer'
-    )
+    StyleGuideRenderer: path.join(__dirname, 'src/styleguide/StyleGuideRenderer')
   },
   template: {
     favicon: '/favicon.ico',
