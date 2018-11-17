@@ -29,7 +29,7 @@ module.exports = {
         {
           rel: 'stylesheet',
           type: 'text/css',
-          href: '/assets/css/madetech-frontend.min.css'
+          href: '../assets/css/madetech-frontend.min.css'
         }
       ],
       scripts: [
@@ -37,7 +37,7 @@ module.exports = {
           src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'
         },
         {
-          src: '/assets/js/madetech-frontend.js'
+          src: '../assets/js/madetech-frontend.js'
         }
       ]
     }
