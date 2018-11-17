@@ -31,7 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -60,8 +60,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -368,31 +368,31 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.875rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 2.0125rem;
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.725rem;
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   font-weight: 300;
 }
 
@@ -464,7 +464,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
 }
 
 .blockquote-footer {
@@ -1658,9 +1658,9 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.475rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -1721,14 +1721,14 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: 1.5;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
 }
 
@@ -1751,17 +1751,17 @@ select.form-control:focus::-ms-value {
 }
 
 .form-control-sm {
-  height: calc(1.8125rem + 2px);
+  height: calc(2.009375rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
 
 .form-control-lg {
-  height: calc(2.875rem + 2px);
+  height: calc(3.15625rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -1846,7 +1846,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
@@ -1949,7 +1949,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
@@ -2103,7 +2103,7 @@ textarea.form-control {
   user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2707,14 +2707,14 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -2799,7 +2799,7 @@ input[type="button"].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: #212529;
   text-align: left;
   list-style: none;
@@ -2958,7 +2958,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -3203,7 +3203,7 @@ input[type="button"].btn-block {
   align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3224,9 +3224,9 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  height: calc(2.875rem + 2px);
+  height: calc(3.15625rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -3236,9 +3236,9 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  height: calc(1.8125rem + 2px);
+  height: calc(2.009375rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -3266,7 +3266,7 @@ input[type="button"].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 1.5rem;
+  min-height: 1.725rem;
   padding-left: 1.5rem;
 }
 
@@ -3310,7 +3310,7 @@ input[type="button"].btn-block {
 
 .custom-control-label::before {
   position: absolute;
-  top: 0.25rem;
+  top: 0.3625rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -3323,7 +3323,7 @@ input[type="button"].btn-block {
 
 .custom-control-label::after {
   position: absolute;
-  top: 0.25rem;
+  top: 0.3625rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -3381,7 +3381,7 @@ input[type="button"].btn-block {
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.475rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -3420,14 +3420,14 @@ input[type="button"].btn-block {
 }
 
 .custom-select-sm {
-  height: calc(1.8125rem + 2px);
+  height: calc(2.009375rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 75%;
 }
 
 .custom-select-lg {
-  height: calc(2.875rem + 2px);
+  height: calc(3.15625rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%;
@@ -3437,7 +3437,7 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.475rem + 2px);
   margin-bottom: 0;
 }
 
@@ -3445,7 +3445,7 @@ input[type="button"].btn-block {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.475rem + 2px);
   margin: 0;
   opacity: 0;
 }
@@ -3473,7 +3473,7 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc(2.25rem + 2px);
+  height: calc(2.475rem + 2px);
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -3489,7 +3489,7 @@ input[type="button"].btn-block {
   bottom: 0;
   z-index: 3;
   display: block;
-  height: 2.25rem;
+  height: 2.475rem;
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -3751,10 +3751,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.284375rem;
+  padding-bottom: 0.284375rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -3795,7 +3795,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4442,7 +4442,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   line-height: 1.5;
 }
 
@@ -4458,7 +4458,7 @@ input[type="button"].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   line-height: 1.5;
 }
 
@@ -4623,7 +4623,7 @@ input[type="button"].btn-block {
 }
 
 .alert-dismissible {
-  padding-right: 4rem;
+  padding-right: 4.225rem;
 }
 
 .alert-dismissible .close {
@@ -4759,7 +4759,7 @@ input[type="button"].btn-block {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.75rem;
+  font-size: 0.8625rem;
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
@@ -5004,7 +5004,7 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 1.725rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -5192,7 +5192,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5206,7 +5206,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -5305,7 +5305,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5319,7 +5319,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 1.00625rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -5467,7 +5467,7 @@ button.close {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: inherit;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
@@ -8535,7 +8535,6 @@ body {
   -webkit-font-feature-settings: "liga" 0;
   -moz-font-feature-settings: "liga" 0;
   font-feature-settings: "liga" 0;
-  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
 }
 
 .header__inner {
@@ -8567,21 +8566,18 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.header_logo_type__text {
-  font-family: "neuzeit-gro-bold";
-  font-size: 1.4em;
-  font-weight: normal;
+.header_logo_type {
+  font-size: 1.2rem;
 }
 
-@media only screen and (max-width: var(--breakpoint-md)) {
-  .header_logo_type__text {
-    font-size: 1.8em;
-  }
+.header_logo_type__text {
+  font-family: "neuzeit-gro-bold";
+  font-size: 1.75rem;
+  font-weight: normal;
 }
 
 .header_nav a {
   color: #333;
-  font-size: 1.1em;
 }
 
 @media (min-width: 992px) {
@@ -8600,7 +8596,7 @@ body {
 .top_bar {
   background: #252525;
   color: #fff;
-  font-size: .9em;
+  font-size: .9rem;
   min-height: .3em;
 }
 
