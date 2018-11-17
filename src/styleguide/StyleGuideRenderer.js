@@ -4,36 +4,43 @@ import TopBar from '../components/TopBar'
 import Ribbon from 'rsg-components/Ribbon';
 
 export function StyleGuideRenderer({
-	title,
-	homepageUrl,
-	children,
-	toc
+  title,
+  homepageUrl,
+  children,
+  toc
 }) {
-	return (
-		<div>
-      <TopBar />
+  return (
+    <div>
+      <TopBar
+        links={[
+          <a href='https://www.madetech.com'>Who are Made Tech?</a>,
+          <a href='https://www.madetech.com/blog'>Blog</a>,
+          <a href='https://learn.madetech.com'>Learn</a>,
+          <a href='https://www.madetech.com/careers'>Careers</a>
+        ]}
+        />
 
       <Header
-				logoHref='..'
-				logoText='Frontend'
-				navLinks={[
-					<a href='/getting-started' class='nav-link mx-1'>
-						Getting Started
-					</a>,
+        logoHref='..'
+        logoText='Frontend'
+        navLinks={[
+        <a href='/getting-started' class='nav-link mx-1'>
+        Getting Started
+        </a>,
 
-					<a href='/' class='nav-link mx-1'>
-						Documentation
-					</a>,
+        <a href='/' class='nav-link mx-1'>
+        Documentation
+        </a>,
 
-					<a href='/styleguide/' class='nav-link mx-1'>
-						Styleguide
-					</a>,
+        <a href='/styleguide/' class='nav-link mx-1'>
+        Styleguide
+        </a>,
 
-					<a href='https://github.com/madetech/frontend' class='nav-link mx-1'>
-						GitHub
-					</a>
-				]}
-				/>
+        <a href='https://github.com/madetech/frontend' class='nav-link mx-1'>
+        GitHub
+        </a>
+        ]}
+        />
 
       <main class="container mt-5">
         <div class="row">
@@ -42,14 +49,14 @@ export function StyleGuideRenderer({
   				</div>
 
           <div class="col-md-9">
-		        {children}
+          {children}
           </div>
         </div>
-			</main>
+      </main>
 
-			<Ribbon />
-		</div>
-	);
+      <Ribbon />
+    </div>
+  );
 }
 
 export default StyleGuideRenderer;
