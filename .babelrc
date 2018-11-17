@@ -1,5 +1,10 @@
 {
   "presets": [
     "@babel/react"
+  ],
+  "ignore": [
+    "src/styleguide/**/*",
+    "src/**/*.test.js",
+    "src/madetech-frontend.js"
   ]
 }
