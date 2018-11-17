@@ -1,5 +1,7 @@
+/build
 /docs/
-/example/
+/examples/
 /src/styleguide/
 /public/
 **/*.test.js
+styleguide.config.js
