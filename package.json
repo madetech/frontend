@@ -1,6 +1,6 @@
 {
   "name": "@madetech/frontend",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
   "main": "lib/index.js",
   "repository": {
@@ -13,8 +13,9 @@
   "homepage": "https://github.com/madetech/frontend#readme",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
-    "release": "npm-run-all release:commit release:tag release:push",
-    "release:commit": "git add package.json* && git commit -m 'New release v$npm_package_version'",
+    "release": "npm-run-all release:*",
+    "release:add": "git add package*.json",
+    "release:commit": "git commit -m 'New release v$npm_package_version'",
     "release:tag": "git tag v$npm_package_version",
     "release:push": "git push origin master v$npm_package_version",
     "lib:build": "babel src --out-dir lib",
