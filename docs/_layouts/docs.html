@@ -83,7 +83,55 @@
   </header>
 
   <main class="container">
-    {{ content }}
+    <div class="row">
+      <div class="col-lg-3 border-right">
+        <nav>
+          <ul class="nav flex-column">
+            <li>
+              <a href="{{ "/getting-started" | relative_url }}" class="nav-link pl-0 font-weight-bold">
+                Getting Started
+              </a>
+
+              <ul class="nav flex-column pl-2" style="font-size: 1rem">
+                <li>
+                  <a href="{{ "/getting-started" | relative_url }}#quick-start" class="nav-link pt-0 active">
+                    Quick start
+                  </a>
+                </li>
+
+                <li>
+                  <a href="{{ "/getting-started" | relative_url }}#using-with-github-pages" class="nav-link pt-0 active">
+                    Using with GitHub Pages
+                  </a>
+                </li>
+
+                <li>
+                  <a href="{{ "/getting-started" | relative_url }}#using-react-component-library" class="nav-link pt-0 active">
+                    Using component library
+                  </a>
+                </li>
+
+                <li>
+                  <a href="{{ "/getting-started" | relative_url }}#using-react-component-library" class="nav-link pt-0 active">
+                    Using with create-react-app
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="{{ "/how-does-it-work" | relative_url }}" class="nav-link pl-0 active">
+                How does it work?
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-lg-9">
+        {{ content }}
+      </div>
+    </div>
   </main>
 
   <script

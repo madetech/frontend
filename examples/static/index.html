@@ -1,14 +1,12 @@
+
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-GB" }}">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
-
-{% seo %}
-
-  <link rel="stylesheet" href="{{ "/assets/css/madetech-frontend.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/madetech-frontend.css">
 </head>
 
 <body>
@@ -40,9 +38,14 @@
         <div class="navbar-brand mr-auto">
           <a href="/" class="header__logo_link">
             <span class="header_logo_type">
-              <span class="header_logo_type__text">Frontend</span>
+              <span class="header_logo_type__text">Example</span>
               <span class="px-3">by</span>
-              <img alt="Made Tech" itemProp="logo" src="{{ "/assets/images/made-tech-logo-colour.png" | relative_url }}" width="120px" />
+              <img
+                alt="Made Tech"
+                itemProp="logo"
+                src="assets/images/made-tech-logo-colour.png"
+                width="120px"
+                />
             </span>
           </a>
         </div>
@@ -63,15 +66,19 @@
           <div class="ml-auto">
             <div class="header_nav">
               <nav class="navbar-nav align-items-center">
-                <a href="{{ "/getting-started" | relative_url }}" class="nav-link mx-1">
+                <a href="/getting-started" class="nav-link mx-1">
+                  Getting Started
+                </a>
+
+                <a href="/" class="nav-link mx-1">
                   Documentation
                 </a>
 
-                <a href="{{ "/styleguide/" | relative_url }}" class="nav-link mx-1">
+                <a href="/styleguide/" class="nav-link mx-1">
                   Styleguide
                 </a>
 
-                <a href="{{ site.github.repository_url }}" class="nav-link mx-1">
+                <a href="https://github.com/madetech/frontend" class="nav-link mx-1">
                   GitHub
                 </a>
               </nav>
@@ -82,14 +89,18 @@
     </div>
   </header>
 
-  <main class="container">
-    {{ content }}
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h1>Hello world!</h1>
+      </div>
+    </div>
   </main>
 
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous"></script>
-  <script src="{{ "/assets/js/madetech-frontend.js" | relative_url }}"></script>
+  <script src="assets/js/madetech-frontend.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@ You can get started by:
  - [Downloading static assets](https://github.com/madetech/frontend/releases) from our latest release
  - Installing via NPM: `npm i --save @madetech/frontend`
 
-Read our [Getting Started](docs/GETTING_STARTED.md) guide.
+Read our [Getting Started](https://madetech.github.com/frontend/getting-started) guide.
 
 ## Status
 
@@ -20,6 +20,11 @@ Read our [Getting Started](docs/GETTING_STARTED.md) guide.
  - Compiled and minified assets, e.g. CSS, JS and images, found in `dist/`
  - A Sass library, found in `src/`
  - A React component library, found in `src/components/`
+
+## Documentation
+
+ - [Getting Started](https://madetech.github.com/frontend/getting-started)
+ - [React Component Styleguide](https://madetech.github.com/frontend/styleguide/)
 
 ## License
 
