@@ -8549,6 +8549,13 @@ body {
   border-radius: .2em;
 }
 
+.header__logo_link,
+.header__logo_link:hover,
+.header__logo_link:focus {
+  color: #000;
+  text-decoration: none;
+}
+
 .header__toggler_icon {
   display: inline-block;
   width: 1.5em;
