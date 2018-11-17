@@ -13,6 +13,7 @@ const links = !process.env.GH_PAGES ? [] : [
 ]
 
 module.exports = {
+  title: 'Style Guide | Made Tech Frontend',
   components: 'src/components/**/index.{js,jsx,ts,tsx}',
   ignore: [
     '**/components/index.js',
