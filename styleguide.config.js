@@ -11,6 +11,16 @@ module.exports = {
   require: [
     path.join(__dirname, 'src/styleguide/all.scss')
   ],
+  sections: [
+    {
+      name: 'Getting Started',
+      href: '..'
+    },
+    {
+      name: 'Components',
+      components: 'src/components/**/index.{js,jsx,ts,tsx}'
+    }
+  ],
   styleguideDir: 'docs/styleguide',
   styleguideComponents: {
     LogoRenderer: path.join(
