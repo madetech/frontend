@@ -1,8 +1,4 @@
-all: clean dist lib docs/styleguide
-
-src/assets:
-	mkdir -p src/assets/images/
-	cp node_modules/@madetech/marketing-assets/logos/* src/assets/images/
+all: clean dist lib
 
 dist:
 	mkdir -p dist/{css,fonts,js,images}
@@ -19,10 +15,6 @@ dist:
 lib:
 	npm run lib:build
 
-docs/styleguide:
-	npm run styleguide:build
-	cp public/favicon.ico docs/styleguide/
-
 publish:
 	npm install
 	npm publish --access public
@@ -30,5 +22,13 @@ publish:
 
 clean:
 	rm -rf lib/
-	rm -rf docs/styleguide/
 	rm -rf dist/
+
+clean-docs:
+	rm -rf docs/styleguide
+
+docs: docs/styleguide
+
+docs/styleguide:
+	npm run docs:styleguide
+	cp public/favicon.ico docs/styleguide/
