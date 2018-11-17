@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
 
 {% seo %}
 
@@ -12,12 +12,6 @@
   <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
-
-  <style>
-    .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
-      color: #000;
-    }
-  </style>
 </head>
 
 <body>
@@ -46,13 +40,15 @@
   <header class='header'>
     <div class='header__inner'>
       <div class='navbar navbar-expand-lg p-0'>
-        <a href="/" class='navbar-brand mr-auto'>
-          <span class='header_logo_type'>
-            <span class="header_logo_type__text">Frontend</span>
-            <span class="px-3">by</span>
-            <img alt='Made Tech' itemProp='logo' src='{{ "/assets/images/made-tech-logo-colour.png" | relative_url }}' width='120px' />
-          </span>
-        </a>
+        <div class='navbar-brand mr-auto'>
+          <a href='/' class='header__logo_link'>
+            <span class='header_logo_type'>
+              <span class="header_logo_type__text">Frontend</span>
+              <span class="px-3">by</span>
+              <img alt='Made Tech' itemProp='logo' src='{{ "/assets/images/made-tech-logo-colour.png" | relative_url }}' width='120px' />
+            </span>
+          </a>
+        </div>
 
         <button
           class='header__toggler d-lg-none'
@@ -70,15 +66,15 @@
           <div class='ml-auto'>
             <div class='header_nav'>
               <nav class='navbar-nav align-items-center'>
-                <a href='/getting-started' class='nav-link mx-1'>
+                <a href='{{ "/getting-started" | relative_url }}' class='nav-link mx-1'>
                   Getting Started
                 </a>
 
-                <a href='/' class='nav-link mx-1'>
+                <a href='{{ "/" | relative_url }}' class='nav-link mx-1'>
                   Documentation
                 </a>
 
-                <a href='/styleguide/' class='nav-link mx-1'>
+                <a href='{{ "/styleguide/" | relative_url }}' class='nav-link mx-1'>
                   Styleguide
                 </a>
 

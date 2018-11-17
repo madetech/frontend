@@ -24,15 +24,15 @@ export function StyleGuideRenderer({
         logoHref='..'
         logoText='Frontend'
         navLinks={[
-        <a href='/getting-started' class='nav-link mx-1'>
+        <a href='../getting-started' class='nav-link mx-1'>
         Getting Started
         </a>,
 
-        <a href='/' class='nav-link mx-1'>
+        <a href='../' class='nav-link mx-1'>
         Documentation
         </a>,
 
-        <a href='/styleguide/' class='nav-link mx-1'>
+        <a href='.' class='nav-link mx-1'>
         Styleguide
         </a>,
 
