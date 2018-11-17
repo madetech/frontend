@@ -4,6 +4,14 @@ Example:
 <TopBar />
 ```
 
-### Please note
+Example with custom links:
 
-You cannot currently customise the content of `TopBar`.
+```jsx
+<TopBar
+  links={[
+    <a href='/blog'>Blog</a>,
+    <a href='/learn'>Learn</a>,
+    <a href='/careers'>Careers</a>
+  ]}
+  />
+```

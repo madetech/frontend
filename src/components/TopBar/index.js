@@ -1,6 +1,20 @@
 import React from 'react'
 
-export default function TopBar () {
+const defaultLinks = [
+  <a href='/blog'>Blog</a>,
+  <a href='/careers'>Careers</a>,
+  <a href='/contact'>Contact Us</a>
+]
+
+function withSpaces (links) {
+  const reducer = (linksWithSpaces, link) => {
+    return linksWithSpaces.concat(link, <span className='space'></span>)
+  }
+
+  return links.reduce(reducer, []).slice(0, -1)
+}
+
+export default function TopBar ({ links }) {
   return (
     <div className='top_bar'>
       <div className='top_bar__inner'>
@@ -11,11 +25,7 @@ export default function TopBar () {
             </div>
 
             <nav>
-              <a href='/blog'>Blog</a>
-              <span className='space'></span>
-              <a href='/careers'>Careers</a>
-              <span className='space'></span>
-              <a href='/contact'>Contact Us</a>
+              {withSpaces(links || defaultLinks)}
             </nav>
           </div>
         </div>
