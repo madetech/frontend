@@ -34,4 +34,4 @@ docs/assets:
 	cp -r dist/ docs/assets/
 
 docs/styleguide:
-	npm run docs:styleguide
+	GH_PAGES=true npm run docs:styleguide

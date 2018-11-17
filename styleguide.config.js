@@ -1,4 +1,17 @@
 const path = require('path')
+
+const requireFiles = process.env.GH_PAGES ? [] : [
+  path.join(__dirname, 'src/styleguide/all.scss')
+]
+
+const links = !process.env.GH_PAGES ? [] : [
+  {
+    rel: 'stylesheet',
+    type: 'text/css',
+    href: '../assets/css/madetech-frontend.min.css'
+  }
+]
+
 module.exports = {
   components: 'src/components/**/index.{js,jsx,ts,tsx}',
   ignore: [
@@ -8,6 +21,7 @@ module.exports = {
     '**/*.spec.{js,jsx,ts,tsx}',
     '**/*.d.ts'
   ],
+  require: requireFiles,
   sections: [
     {
       name: 'Getting Started',
@@ -25,13 +39,7 @@ module.exports = {
   template: {
     favicon: '../assets/images/favicon.ico',
     head: {
-      links: [
-        {
-          rel: 'stylesheet',
-          type: 'text/css',
-          href: '../assets/css/madetech-frontend.min.css'
-        }
-      ],
+      links: links,
       scripts: [
         {
           src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'
