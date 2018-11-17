@@ -1,10 +1,6 @@
-import components from './index'
+import { Header, TopBar } from './index'
 
 it('exports components', () => {
-  expect(components.Header).toBeTruthy()
-  expect(components.TopBar).toBeTruthy()
-})
-
-it('does not export non-existant components', () => {
-  expect(components.NotExist).toBeFalsy()
+  expect(Header).toBeTruthy()
+  expect(TopBar).toBeTruthy()
 })
