@@ -22,16 +22,6 @@ module.exports = {
     '**/*.d.ts'
   ],
   require: requireFiles,
-  sections: [
-    {
-      name: 'Getting Started',
-      href: '..'
-    },
-    {
-      name: 'Components',
-      components: 'src/components/**/index.{js,jsx,ts,tsx}'
-    }
-  ],
   styleguideDir: 'docs/styleguide',
   styleguideComponents: {
     StyleGuideRenderer: path.join(__dirname, 'src/styleguide/StyleGuideRenderer')
