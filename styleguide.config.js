@@ -31,10 +31,10 @@ module.exports = {
       base: '"neuzeit-gro-reg", Helvetica, Arial, sans-serif'
     },
     fontSize: {
-      base: 20,
-      text: 20,
-      h5: 20,
-      h6: 20
+      base: 18,
+      text: 18,
+      h5: 18,
+      h6: 18
     }
   },
   styles: {
