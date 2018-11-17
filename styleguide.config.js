@@ -36,6 +36,24 @@ module.exports = {
   styleguideComponents: {
     StyleGuideRenderer: path.join(__dirname, 'src/styleguide/StyleGuideRenderer')
   },
+  theme: {
+    fontFamily: {
+      base: '"neuzeit-gro-reg", Helvetica, Arial, sans-serif'
+    },
+    fontSize: {
+      base: 20,
+      text: 20,
+      h5: 20,
+      h6: 20
+    }
+  },
+  styles: {
+    TableOfContents: {
+    	search: {
+    		padding: 0,
+    	}
+    }
+  },
   template: {
     favicon: '../assets/images/favicon.ico',
     head: {

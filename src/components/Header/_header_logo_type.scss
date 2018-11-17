@@ -1,14 +1,11 @@
 .header_logo_type {
   @extend .d-flex;
   @extend .align-items-center;
+  font-size: 1.2rem;
 }
 
 .header_logo_type__text {
   font-family: "neuzeit-gro-bold";
-  font-size: 1.4em;
+  font-size: 1.75rem;
   font-weight: normal;
-
-  @media only screen and (max-width: var(--breakpoint-md)) {
-    font-size: 1.8em;
-  }
 }
