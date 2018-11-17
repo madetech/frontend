@@ -13,7 +13,7 @@ export function StyleGuideRenderer({
 		<div>
       <TopBar />
 
-      <Header logoText='Frontend' />
+      <Header logoHref='..' logoText='Frontend' />
 
       <main class="container mt-5">
         <div class="row">
