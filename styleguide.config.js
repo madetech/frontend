@@ -8,9 +8,6 @@ module.exports = {
     '**/*.spec.{js,jsx,ts,tsx}',
     '**/*.d.ts'
   ],
-  require: [
-    path.join(__dirname, 'src/styleguide/all.scss')
-  ],
   sections: [
     {
       name: 'Getting Started',
@@ -29,6 +26,23 @@ module.exports = {
     )
   },
   template: {
-    favicon: 'favicon.ico'
+    favicon: '/favicon.ico',
+    head: {
+      links: [
+        {
+          rel: 'stylesheet',
+          type: 'text/css',
+          href: '/assets/css/madetech-frontend.min.css'
+        }
+      ],
+      scripts: [
+        {
+          src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'
+        },
+        {
+          src: '/assets/js/madetech-frontend.js'
+        }
+      ]
+    }
   }
 }

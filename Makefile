@@ -25,9 +25,13 @@ clean:
 	rm -rf dist/
 
 clean-docs:
+	rm -rf docs/assets
 	rm -rf docs/styleguide
 
-docs: docs/styleguide
+docs: docs/assets docs/styleguide
+
+docs/assets:
+	cp -r dist/ docs/assets/
 
 docs/styleguide:
 	npm run docs:styleguide
