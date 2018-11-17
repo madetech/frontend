@@ -3,15 +3,25 @@ import Logo from './Logo'
 import LogoType from './LogoType'
 import Nav from './Nav'
 
-export default function Header ({ logoText, navLinks }) {
+function HeaderLogo ({ logoHref, logoText }) {
   const logo = logoText ? <LogoType text={logoText} /> : <Logo />
 
+  if (logoHref) {
+    return (
+      <a href={logoHref} class='header__logo_link'>{logo}</a>
+    )
+  } else {
+    return logo
+  }
+}
+
+export default function Header ({ logoHref, logoText, navLinks }) {
   return (
     <header className='header'>
       <div className='header__inner'>
         <div className='navbar navbar-expand-lg p-0'>
           <div className='navbar-brand mr-auto'>
-            {logo}
+            <HeaderLogo logoHref={logoHref} logoText={logoText} />
           </div>
 
           <button

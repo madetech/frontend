@@ -2,6 +2,7 @@ Example with Made Tech logo:
 
 ```jsx
 <Header
+  logoHref='/'
   navLinks={[
     <a href='/agile-transformation' className='nav-link'>
       Agile Team Transformation
@@ -28,6 +29,7 @@ Example with custom logo:
 
 ```jsx
 <Header
+  logoHref='/'
   logoText='Learn Tech'
   navLinks={[
     <a href='/' className='nav-link'>
