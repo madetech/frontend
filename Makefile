@@ -35,4 +35,3 @@ docs/assets:
 
 docs/styleguide:
 	npm run docs:styleguide
-	cp src/images/favicon.ico docs/styleguide/

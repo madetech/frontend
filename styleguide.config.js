@@ -23,7 +23,7 @@ module.exports = {
     StyleGuideRenderer: path.join(__dirname, 'src/styleguide/StyleGuideRenderer')
   },
   template: {
-    favicon: '/favicon.ico',
+    favicon: '../assets/images/favicon.ico',
     head: {
       links: [
         {
