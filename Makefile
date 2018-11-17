@@ -24,6 +24,7 @@ docs/styleguide:
 	cp public/favicon.ico docs/styleguide/
 
 publish:
+	npm install
 	npm publish --access public
 	npm run release
 
