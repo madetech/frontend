@@ -42,14 +42,14 @@ export function StyleGuideRenderer({
         ]}
         />
 
-      <main class="container mt-5">
+      <main class="container">
         <div class="row">
-  				<div class="col-md-3">
+  				<div class="col-lg-3 border-right">
   					{toc}
   				</div>
 
           <div class="col-md-9">
-          {children}
+            {children}
           </div>
         </div>
       </main>
