@@ -2,9 +2,10 @@
   "name": "@madetech/frontend",
   "version": "1.0.3",
   "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
+    "lib:build": "babel src --out-dir lib",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
@@ -14,6 +15,8 @@
     "@madetech/marketing-assets": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
     "bootstrap": "^4.1.3",
     "clean-css-cli": "^4.2.1",
     "jquery": "^3.3.1",
@@ -21,6 +24,7 @@
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
     "react-scripts": "^2.1.1",
-    "react-styleguidist": "^8.0.4"
+    "react-styleguidist": "^8.0.4",
+    "webpack": "^4.25.1"
   }
 }
