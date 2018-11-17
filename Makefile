@@ -10,7 +10,7 @@ dist:
 	cat node_modules/bootstrap/js/dist/util.js >> dist/js/madetech-frontend.js
 	cat node_modules/bootstrap/js/dist/collapse.js >> dist/js/madetech-frontend.js
 
-	cp public/favicon.ico dist/images/
+	cp -r src/images/ dist/images/
 
 lib:
 	npm run lib:build
@@ -31,4 +31,4 @@ docs: docs/styleguide
 
 docs/styleguide:
 	npm run docs:styleguide
-	cp public/favicon.ico docs/styleguide/
+	cp src/images/favicon.ico docs/styleguide/
