@@ -13,7 +13,27 @@ export function StyleGuideRenderer({
 		<div>
       <TopBar />
 
-      <Header logoHref='..' logoText='Frontend' />
+      <Header
+				logoHref='..'
+				logoText='Frontend'
+				navLinks={[
+					<a href='/getting-started' class='nav-link mx-1'>
+						Getting Started
+					</a>,
+
+					<a href='/' class='nav-link mx-1'>
+						Documentation
+					</a>,
+
+					<a href='/styleguide/' class='nav-link mx-1'>
+						Styleguide
+					</a>,
+
+					<a href='https://github.com/madetech/frontend' class='nav-link mx-1'>
+						GitHub
+					</a>
+				]}
+				/>
 
       <main class="container mt-5">
         <div class="row">

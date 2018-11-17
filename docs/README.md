@@ -1,4 +1,4 @@
 # Made Tech Frontend Documentation
 
- - [Getting Started](GETTING_STARTED.md)
+ - [Getting Started](getting-started)
  - [Styleguide](styleguide)
