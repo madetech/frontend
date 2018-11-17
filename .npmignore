@@ -1,3 +1,5 @@
-docs/
-example/
-src/styleguide/
+/docs/
+/example/
+/src/styleguide/
+/public/
+**/*.test.js
