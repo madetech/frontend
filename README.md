@@ -17,14 +17,57 @@ Read our [Getting Started](https://madetech.github.com/frontend/getting-started)
 
 ## What's included?
 
+ - Bootstrap front-end framework
  - Compiled and minified assets, e.g. CSS, JS and images, found in `dist/`
  - A Sass library, found in `src/`
  - A React component library, found in `src/components/`
 
+**Boostrap**
+
+In order to provide a quick and easy way of creating sites we extend the Bootstrap front-end framework. We bundle it whether you are using compiled assets or consuming the library via NPM.
+
+**Compiled and minified assets**
+
+We provide the following assets for ease of use. If you're using GitHub Pages, the easiest way to get started is copying the compiled assets into your project. If you'd prefer a "cleaner" way, investigate using the component library instead.
+
+The CSS and JavaScript includes Bootstrap so there is no need to pull that in separately, though you will need to include jQuery.
+
+```
+@madetech/frontend/
+└── dist/
+    ├── css/
+    │   ├── madetech-frontend.css
+    │   ├── madetech-frontend.css.map
+    │   ├── madetech-frontend.min.css
+    │   └── madetech-frontend.min.css.map
+    ├── fonts/
+    │   ├── neuzeit-gro-bold.{eot,ttf,woff}
+    │   ├── neuzeit-gro-reg.{eot,ttf,woff}
+    │   └── neuzeit-s-book.{eot,ttf,woff}
+    ├── images/
+    │   ├── favicon.ico
+    │   ├── made-tech-logo-blk.png
+    │   ├── made-tech-logo-colour.png
+    │   └── made-tech-logo-wht.png
+    └── js/
+        ├── madetech-frontend.js
+        ├── madetech-frontend.js.map
+        ├── madetech-frontend.min.js
+        └── madetech-frontend.min.js.map
+```
+
+**Sass library**
+
+The Sass library extends Bootstrap's own Sass. You too can either choose to extend it or consume the compiled CSS.
+
+**React component library**
+
+We export React components for use in projects that use React. It's really easy to get started with Create React App or Gatsby for example.
+
 ## Documentation
 
- - [Getting Started](https://madetech.github.com/frontend/getting-started)
- - [React Component Styleguide](https://madetech.github.com/frontend/styleguide/)
+ - [Get started](https://madetech.github.com/frontend/getting-started)
+ - [View available components in our  Styleguide](https://madetech.github.com/frontend/styleguide/)
 
 ## License
 
