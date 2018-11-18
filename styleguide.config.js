@@ -1,7 +1,7 @@
 const path = require('path')
 
 const requireFiles = process.env.GH_PAGES ? [] : [
-  path.join(__dirname, 'src/styleguide/all.scss')
+  path.join(__dirname, 'all.scss')
 ]
 
 const links = !process.env.GH_PAGES ? [] : [
