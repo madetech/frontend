@@ -6,7 +6,7 @@ A collection of components and resources for creating Made Tech branded sites an
 
 You can get started by:
 
- - [Downloading static assets](https://github.com/madetech/frontend/releases) from our latest release
+ - [Downloading madetech-frontend.zip](https://github.com/madetech/frontend/releases) from our latest release
  - Installing via NPM: `npm i --save @madetech/frontend`
 
 Read our [Getting Started](https://madetech.github.com/frontend/getting-started) guide.
@@ -33,7 +33,7 @@ We provide the following assets for ease of use. If you're using GitHub Pages, t
 The CSS and JavaScript includes Bootstrap so there is no need to pull that in separately, though you will need to include jQuery.
 
 ```
-@madetech/frontend/
+madetech-frontend.zip
 └── dist/
     ├── css/
     │   ├── madetech-frontend.css
@@ -55,6 +55,8 @@ The CSS and JavaScript includes Bootstrap so there is no need to pull that in se
         ├── madetech-frontend.min.js
         └── madetech-frontend.min.js.map
 ```
+
+You can download [madetech-frontend.zip](https://github.com/madetech/frontend/releases) from our latest release.
 
 **Sass library**
 
