@@ -1,13 +1,10 @@
-$font-family-sans-serif: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
-$font-size-base: 1.15rem;
-$paragraph-margin-bottom: 1.5rem;
-
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'settings/typography';
 @import 'settings/marketing_assets';
+@import '../node_modules/bootstrap/scss/bootstrap';
 @import 'tools/marketing_font_url';
 @import 'shared/fonts';
 @import 'shared/typography';
-@import 'components/Header/header.scss';
-@import 'components/Header/header_logo_type.scss';
-@import 'components/Header/header_nav.scss';
-@import 'components/TopBar/top_bar.scss';
+@import 'components/Header/header';
+@import 'components/Header/header_logo_type';
+@import 'components/Header/header_nav';
+@import 'components/TopBar/top_bar';
