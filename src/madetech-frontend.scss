@@ -1,10 +1,2 @@
-@import 'settings/typography';
-@import 'settings/marketing_assets';
-@import '../node_modules/bootstrap/scss/bootstrap';
-@import 'tools/marketing_font_url';
-@import 'shared/fonts';
-@import 'shared/typography';
-@import 'components/Header/header';
-@import 'components/Header/header_logo_type';
-@import 'components/Header/header_nav';
-@import 'components/TopBar/top_bar';
+$marketing-assets-path: "../";
+@import 'all';

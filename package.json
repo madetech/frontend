@@ -16,7 +16,7 @@
     "styleguide": "styleguidist server",
     "lib:build": "babel src --out-dir lib",
     "sass:build": "npm-run-all sass:build:*",
-    "sass:build:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/madetech-frontend.scss dist/css/madetech-frontend.css",
+    "sass:build:compile": "node-sass --importer=node_modules/node-sass-tilde-importer --output-style expanded --source-map true --source-map-contents true --precision 6 src/madetech-frontend.scss dist/css/madetech-frontend.css",
     "sass:build:min": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/madetech-frontend.min.css dist/css/madetech-frontend.css",
     "docs:styleguide": "styleguidist build",
     "release": "release-it --src.tagName='v%s' --github.release --github.assets dist/madetech-frontend.zip"
@@ -33,6 +33,7 @@
     "bootstrap": "^4.1.3",
     "clean-css-cli": "^4.2.1",
     "node-sass": "^4.10.0",
+    "node-sass-tilde-importer": "^1.0.2",
     "npm-run-all": "^4.1.3",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
