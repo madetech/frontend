@@ -1,5 +1,9 @@
 all: clean dist lib
 
+clean:
+	rm -rf lib/
+	rm -rf dist/
+
 dist:
 	mkdir -p dist/{css,fonts,js,images}
 	cp node_modules/@madetech/marketing-assets/fonts/neuzeit*.{eot,ttf,woff} dist/fonts
@@ -14,15 +18,6 @@ dist:
 
 lib:
 	npm run lib:build
-
-publish:
-	npm install
-	npm publish --access public
-	npm run release
-
-clean:
-	rm -rf lib/
-	rm -rf dist/
 
 clean-docs:
 	rm -rf docs/assets

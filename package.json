@@ -19,11 +19,7 @@
     "sass:build:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/madetech-frontend.scss dist/css/madetech-frontend.css",
     "sass:build:min": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/madetech-frontend.min.css dist/css/madetech-frontend.css",
     "docs:styleguide": "styleguidist build",
-    "release": "npm-run-all release:*",
-    "release:add": "git add package*.json",
-    "release:commit": "git commit -m \"New release v$npm_package_version\"",
-    "release:tag": "git tag v$npm_package_version",
-    "release:push": "git push origin master v$npm_package_version"
+    "release": "release-it"
   },
   "author": "Made Tech <hello@madetech.com>",
   "license": "UNLICENSED",
@@ -41,6 +37,7 @@
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
     "react-scripts": "^2.1.1",
-    "react-styleguidist": "^8.0.4"
+    "react-styleguidist": "^8.0.4",
+    "release-it": "^8.0.0"
   }
 }
