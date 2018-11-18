@@ -91,33 +91,35 @@
     <div class="row">
       <div class="col-lg-3 border-right">
         <nav>
+          {%- assign page_slug = page.url | split: '/' | last -%}
+
           <ul class="nav flex-column">
             <li>
-              <a href="{{ "/getting-started" | relative_url }}" class="nav-link pl-0 font-weight-bold">
+              <a href="{{ "/getting-started.html" | relative_url }}" class="nav-link pl-0{% if page_slug == 'getting-started.html' %} font-weight-bold{% endif %}">
                 Getting Started
               </a>
 
               <ul class="nav flex-column pl-2" style="font-size: 1rem">
                 <li>
-                  <a href="{{ "/getting-started" | relative_url }}#quick-start" class="nav-link pt-0 active">
+                  <a href="{{ "/getting-started.html" | relative_url }}#quick-start" class="nav-link pt-0">
                     Quick start
                   </a>
                 </li>
 
                 <li>
-                  <a href="{{ "/getting-started" | relative_url }}#using-with-github-pages" class="nav-link pt-0 active">
+                  <a href="{{ "/getting-started.html" | relative_url }}#using-with-github-pages" class="nav-link pt-0">
                     Using with GitHub Pages
                   </a>
                 </li>
 
                 <li>
-                  <a href="{{ "/getting-started" | relative_url }}#using-react-component-library" class="nav-link pt-0 active">
+                  <a href="{{ "/getting-started.html" | relative_url }}#using-react-component-library" class="nav-link pt-0">
                     Using as component library
                   </a>
                 </li>
 
                 <li>
-                  <a href="{{ "/getting-started" | relative_url }}#using-react-component-library" class="nav-link pt-0 active">
+                  <a href="{{ "/getting-started.html" | relative_url }}#using-react-component-library" class="nav-link pt-0">
                     Using with create-react-app
                   </a>
                 </li>
@@ -125,7 +127,7 @@
             </li>
 
             <li>
-              <a href="{{ "/how-does-it-work" | relative_url }}" class="nav-link pl-0 active">
+              <a href="{{ "/how-does-it-work.html" | relative_url }}" class="nav-link pl-0 {% if page_slug == 'how-does-it-work.html' %} font-weight-bold{% endif %}">
                 How does it work?
               </a>
             </li>
