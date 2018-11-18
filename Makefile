@@ -32,6 +32,7 @@ docs: docs/assets docs/styleguide
 
 docs/assets:
 	cp -r dist/ docs/assets/
+	cp src/styleguide/highlighting.css docs/assets/css/
 
 docs/styleguide:
 	GH_PAGES=true npm run docs:styleguide

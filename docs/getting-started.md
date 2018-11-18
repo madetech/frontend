@@ -47,7 +47,7 @@ In order to use as a component library you first need to add `@madetech/frontend
 npm i @madetech/frontend
 ```
 
-Once it's installed you can then get to work:
+Once it's installed you can get to work:
 
 ```jsx
 import { Header } from '@madetech/frontend'
@@ -74,3 +74,41 @@ export default function Layout ({ children }) {
   )
 }
 ```
+
+To find out what components are available, take a look at the [style guide](styleguide/). You can use the style guide to play with components and find out how to use them.
+
+**Importing styles**
+
+You will need to either link to `dist/css/madetech-frontend.css` with `<link>`s in your HTML or if your build process can compile Sass you can import `@madetech/frontend/src/madetech-frontend.scss` into your app or layout component.
+
+## Using with create-react-app
+
+If you are building an app with [`create-react-app`](https://facebook.github.io/create-react-app/), it's easy to get started.
+
+In order to use as a component library you first need to add `@madetech/frontend` NPM module to your application:
+
+```
+npm i @madetech/frontend
+```
+
+Now you can use components in your `App.js` for example:
+
+```jsx
+import React from 'react'
+import { Header } from '@madetech/frontend'
+import '@madetech/frontend/dist/css/madetech-frontend.css'
+
+export default function App () {
+  return (
+    <Header />
+  )
+}
+```
+
+**Importing styles**
+
+Since `create-react-app` build process can compile Sass you can import `@madetech/frontend/src/madetech-frontend.scss` into your app or layout component as in the example above.
+
+## Next steps
+
+We recommend you read about [how this library works](how-does-it-work) under the hood.
