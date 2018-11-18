@@ -24,31 +24,31 @@ export function StyleGuideRenderer({
         logoHref='..'
         logoText='Frontend'
         navLinks={[
-          <a href='..' class='nav-link mx-1'>
+          <a href='..' className='nav-link mx-1'>
             Home
           </a>,
 
-          <a href='../getting-started' class='nav-link mx-1'>
+          <a href='../getting-started' className='nav-link mx-1'>
             Documentation
           </a>,
 
-          <a href='.' class='nav-link mx-1'>
+          <a href='.' className='nav-link mx-1'>
             Styleguide
           </a>,
 
-          <a href='https://github.com/madetech/frontend' class='nav-link mx-1'>
+          <a href='https://github.com/madetech/frontend' className='nav-link mx-1'>
             GitHub
           </a>
         ]}
         />
 
-      <main class="container">
-        <div class="row">
-  				<div class="col-lg-3 border-right">
+      <main className="container">
+        <div className="row">
+  				<div className="col-lg-3 border-right">
   					{toc}
   				</div>
 
-          <div class="col-md-9">
+          <div className="col-md-9">
             {children}
           </div>
         </div>
