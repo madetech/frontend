@@ -79,9 +79,11 @@ To find out what components are available, take a look at the [style guide](styl
 
 **Importing styles**
 
-You will need to either link to `dist/css/madetech-frontend.css` with `<link>`s in your HTML or if your build process can compile Sass you can import `@madetech/frontend/src/madetech-frontend.scss` into your app or layout component.
+ - Import `@madetech/frontend/all.scss` if your build process supports compiling Sass
+ - Import `@madetech/frontend/dist/madetech-frontend.css` if your build process supports CSS
+ - Link to the static asset with <link> by copying `@madetech/frontend/dist/madetech-frontend.css` into your `public/` dir
 
-## Using with create-react-app
+## Using with Create React App
 
 If you are building an app with [`create-react-app`](https://facebook.github.io/create-react-app/), it's easy to get started.
 
@@ -96,7 +98,7 @@ Now you can use components in your `App.js` for example:
 ```jsx
 import React from 'react'
 import { Header } from '@madetech/frontend'
-import '@madetech/frontend/dist/css/madetech-frontend.css'
+import '@madetech/frontend/all.scss'
 
 export default function App () {
   return (
@@ -107,7 +109,11 @@ export default function App () {
 
 **Importing styles**
 
-Since `create-react-app` build process can compile Sass you can import `@madetech/frontend/src/madetech-frontend.scss` into your app or layout component as in the example above.
+You have a number of options for importing styles with Create React App:
+
+ - Import `@madetech/frontend/all.scss` (as seen above) as Create React App supports compiling Sass
+ - Import `@madetech/frontend/dist/madetech-frontend.css` as Create React App supports compiling CSS
+ - Link to the static asset with <link> by copying `@madetech/frontend/dist/madetech-frontend.css` into your `public/` dir
 
 If you need a further example for using `create-react-app`, [check this out](https://github.com/madetech/frontend/tree/master/examples/create-react-app).
 
