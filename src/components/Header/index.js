@@ -1,4 +1,5 @@
 import React from 'react'
+import { Collapse, Navbar, NavbarToggler } from 'reactstrap'
 import Logo from './Logo'
 import LogoType from './LogoType'
 import Nav from './Nav'
@@ -8,43 +9,54 @@ function HeaderLogo ({ logoHref, logoText }) {
 
   if (logoHref) {
     return (
-      <a href={logoHref} class='header__logo_link'>{logo}</a>
+      <a href={logoHref} className='header__logo_link'>{logo}</a>
     )
   } else {
     return logo
   }
 }
 
-export default function Header ({ logoHref, logoText, navLinks }) {
-  return (
-    <header className='header'>
-      <div className='header__inner'>
-        <div className='navbar navbar-expand-lg p-0'>
-          <div className='navbar-brand mr-auto'>
-            <HeaderLogo logoHref={logoHref} logoText={logoText} />
-          </div>
+export default class Header extends React.Component {
+  constructor(props) {
+    super(props)
 
-          <button
-            className='header__toggler d-lg-none'
-            type='button'
-            data-toggle='collapse'
-            data-target='#navbarNavDropdown'
-            aria-controls='navbarNavDropdown'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-            >
-            <span className='header__toggler_icon'></span>
-          </button>
+    this.toggle = this.toggle.bind(this)
 
-          <div className='collapse navbar-collapse' id='navbarNavDropdown'>
-            <div className='ml-auto'>
-              <Nav>
-                {navLinks}
-              </Nav>
+    this.state = {
+     isOpen: false
+    }
+  }
+
+  toggle() {
+    console.log('cool', !this.state.isOpen)
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
+  render () {
+    return (
+      <header className='header'>
+        <div className='header__inner'>
+          <Navbar expand='lg' className='p-0'>
+            <div className='navbar-brand mr-auto'>
+              <HeaderLogo logoHref={this.props.logoHref} logoText={this.props.logoText} />
             </div>
-          </div>
+
+            <NavbarToggler className='header__toggler d-lg-none' onClick={this.toggle}>
+              <span className='header__toggler_icon'></span>
+            </NavbarToggler>
+
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <div className='ml-auto'>
+                <Nav>
+                  {this.props.navLinks}
+                </Nav>
+              </div>
+            </Collapse>
+          </Navbar>
         </div>
-      </div>
-    </header>
-  )
+      </header>
+    )
+  }
 }

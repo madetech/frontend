@@ -28,7 +28,8 @@
   "author": "Made Tech <hello@madetech.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@madetech/marketing-assets": "^1.2.0"
+    "@madetech/marketing-assets": "^1.2.0",
+    "reactstrap": "^6.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
