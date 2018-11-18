@@ -5,3 +5,4 @@
 /public/
 **/*.test.js
 styleguide.config.js
+*zip
