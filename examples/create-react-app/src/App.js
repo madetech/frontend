@@ -4,6 +4,6 @@ import '@madetech/frontend/dist/css/madetech-frontend.css'
 
 export default function App () {
   return (
-    <Header />
+    <Header navLinks={[<a href='/'>Home</a>]} />
   )
 }
