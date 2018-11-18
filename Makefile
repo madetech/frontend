@@ -1,4 +1,4 @@
-all: clean dist lib
+all: clean dist dist/madetech-frontend.zip lib
 
 clean:
 	rm -rf lib/
@@ -15,6 +15,9 @@ dist:
 	cat node_modules/bootstrap/js/dist/collapse.js >> dist/js/madetech-frontend.js
 
 	cp -r src/images/ dist/images/
+
+dist/madetech-frontend.zip:
+	zip -r dist/madetech-frontend.zip dist/
 
 lib:
 	npm run lib:build
