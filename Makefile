@@ -2,7 +2,7 @@ all: clean dist lib
 
 dist:
 	mkdir -p dist/{css,fonts,js,images}
-	cp node_modules/@madetech/marketing-assets/fonts/neuzeit* dist/fonts
+	cp node_modules/@madetech/marketing-assets/fonts/neuzeit*.{eot,ttf,woff} dist/fonts
 	cp node_modules/@madetech/marketing-assets/logos/* dist/images
 	npm run sass:build
 
