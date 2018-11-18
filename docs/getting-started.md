@@ -109,6 +109,8 @@ export default function App () {
 
 Since `create-react-app` build process can compile Sass you can import `@madetech/frontend/src/madetech-frontend.scss` into your app or layout component as in the example above.
 
+If you need a further example for using `create-react-app`, [check this out](https://github.com/madetech/frontend/tree/master/examples/create-react-app).
+
 ## Next steps
 
 We recommend you read about [how this library works](how-does-it-work) under the hood.
