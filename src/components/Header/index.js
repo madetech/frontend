@@ -17,7 +17,7 @@ function HeaderLogo ({ logoHref, logoText }) {
 }
 
 export default class Header extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
 
     this.toggle = this.toggle.bind(this)
@@ -27,8 +27,7 @@ export default class Header extends React.Component {
     }
   }
 
-  toggle() {
-    console.log('cool', !this.state.isOpen)
+  toggle () {
     this.setState({
       isOpen: !this.state.isOpen
     });
