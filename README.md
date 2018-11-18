@@ -17,14 +17,10 @@ Read our [Getting Started](https://madetech.github.com/frontend/getting-started)
 
 ## What's included?
 
- - Bootstrap front-end framework
- - Compiled and minified assets, e.g. CSS, JS and images, found in `dist/`
- - A Sass library, found in `src/`
- - A React component library, found in `src/components/`
-
-**Boostrap**
-
-In order to provide a quick and easy way of creating sites we extend the Bootstrap front-end framework. We bundle it whether you are using compiled assets or consuming the library via NPM.
+ - A Sass library that extends the Bootstrap front-end framework, start with [`src/all.scss`](https://github.com/madetech/frontend/blob/master/src/all.scss)
+ - A React component library that builds on Reactstrap, take a look at [`src/components/`](https://github.com/madetech/frontend/tree/master/src/components) and [the style guide](https://madetech.github.io/frontend/styleguide/)
+ - Made Tech branding kit (images and fonts) from [`@madetech/marketing-assets`](https://github.com/madetech/marketing-assets)
+ - Compiled and minified assets for static sites, download from [madetech-frontend.zip](https://github.com/madetech/frontend/releases)
 
 **Compiled and minified assets**
 
@@ -57,14 +53,6 @@ madetech-frontend.zip
 ```
 
 You can download [madetech-frontend.zip](https://github.com/madetech/frontend/releases) from our latest release.
-
-**Sass library**
-
-The Sass library extends Bootstrap's own Sass. You too can either choose to extend it or consume the compiled CSS.
-
-**React component library**
-
-We export React components for use in projects that use React. It's really easy to get started with Create React App or Gatsby for example.
 
 ## Documentation
 
