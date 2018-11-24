@@ -30,7 +30,7 @@ If you are creating a documentation site using GitHub Pages, we again recommend 
 We recommend the following steps are take with a themeless install of Jekyll:
 
 1. Download latest copy of [Made Tech Frontend](https://github.com/madetech/frontend/releases)
-2. Create or replace `_layouts/default.html` with [this example](https://github.com/madetech/frontend/blob/master/examples/static/index.html)
+2. Create or replace `_layouts/default.html` with [this example](https://github.com/madetech/frontend/blob/master/docs/_layouts/default.html)
 3. Now create an `assets/` directory and put the contents of `dist/` in it
 
 If you have installed `github-pages` gem locally you can now run `bundle exec jekyll s` and you will see a Made Tech theme.
