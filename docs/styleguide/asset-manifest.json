@@ -1,8 +1,12 @@
 {
-  "main.js": "/build/main.b7a73343.js",
-  "build/0.777083b8.js": "/build/0.777083b8.js",
+  "main.js": "/build/main.5b0cc61c.js",
+  "build/0.56c1ada2.js": "/build/0.56c1ada2.js",
   "build/1.70251657.js": "/build/1.70251657.js",
   "runtime~main.js": "/build/bundle.0c9e41fe.js",
   "static/media/made-tech-logo-colour.png": "/static/media/made-tech-logo-colour.fe96d680.png",
+  "static/media/made-tech-logo-wht.png": "/static/media/made-tech-logo-wht.f4b07464.png",
+  "static/media/github.svg": "/static/media/github.f5822558.svg",
+  "static/media/linkedin.svg": "/static/media/linkedin.73363b9c.svg",
+  "static/media/twitter.svg": "/static/media/twitter.ebcd0fbc.svg",
   "index.html": "/index.html"
 }

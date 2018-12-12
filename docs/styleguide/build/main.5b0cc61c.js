@@ -1,5 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Footer/Footer.md":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Footer/Footer.md ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! react */ \"./node_modules/react/index.js\") };\nvar requireInRuntimeBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime */ \"./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime.js\");\nvar requireInRuntime = requireInRuntimeBase.bind(null, requireMap);\nvar evalInContextBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/evalInContext */ \"./node_modules/react-styleguidist/loaders/utils/client/evalInContext.js\");\nvar evalInContext = evalInContextBase.bind(null, \"var React = require('react');\", requireInRuntime);\n\nmodule.exports = [{\n        'type': 'code',\n        'content': '<Footer />',\n        'settings': {},\n        'evalInContext': evalInContext\n    }]\n\t\n\n//# sourceURL=webpack:///./src/components/Footer/Footer.md?./node_modules/react-styleguidist/loaders/examples-loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Header/Header.md":
 /*!******************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Header/Header.md ***!
@@ -33,6 +44,17 @@ eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! rea
 
 /***/ }),
 
+/***/ "./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/Footer/index.js":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/Footer/index.js ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'Footer',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Footer/Footer.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Footer/Footer.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/Footer/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/Header/index.js":
 /*!**************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/Header/index.js ***!
@@ -63,6 +85,18 @@ eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displa
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'TopBar',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/TopBar/TopBar.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/TopBar/TopBar.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/TopBar/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
+
+/***/ }),
+
+/***/ "./src/components/Footer/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Footer/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Footer; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _madetech_marketing_assets_logos_made_tech_logo_wht_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @madetech/marketing-assets/logos/made-tech-logo-wht.png */ \"./node_modules/@madetech/marketing-assets/logos/made-tech-logo-wht.png\");\n/* harmony import */ var _madetech_marketing_assets_logos_made_tech_logo_wht_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_madetech_marketing_assets_logos_made_tech_logo_wht_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_linkedin_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/linkedin.svg */ \"./src/images/linkedin.svg\");\n/* harmony import */ var _images_linkedin_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_linkedin_svg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_twitter_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/twitter.svg */ \"./src/images/twitter.svg\");\n/* harmony import */ var _images_twitter_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_twitter_svg__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _images_github_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/github.svg */ \"./src/images/github.svg\");\n/* harmony import */ var _images_github_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_github_svg__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nfunction Footer() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"footer\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"row\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-lg-4 d-none d-lg-block\"\n  }, \"\\xA9 \", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    itemprop: \"copyrightYear\"\n  }, \"2018\"), \" \", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    itemprop: \"copyrightHolder\",\n    itemscope: true,\n    itemtype: \"http://schema.org/Organization\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    itemprop: \"name\"\n  }, \"Made Tech Limited.\"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-lg-4 text-center\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    className: \"footer__logo\",\n    href: \"https://www.madetech.com\",\n    rel: \"home\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _madetech_marketing_assets_logos_made_tech_logo_wht_png__WEBPACK_IMPORTED_MODULE_1___default.a,\n    height: \"25\"\n  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", {\n    className: \"col-lg-4 text-right d-none d-lg-block\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    className: \"footer__social_link\",\n    href: \"https://www.madetech.com/ext/linkedin\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_linkedin_svg__WEBPACK_IMPORTED_MODULE_2___default.a,\n    alt: \"LinkedIn\",\n    height: \"25\"\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    className: \"footer__social_link\",\n    href: \"https://www.madetech.com/ext/twitter\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_twitter_svg__WEBPACK_IMPORTED_MODULE_3___default.a,\n    alt: \"Twitter\",\n    height: \"25\"\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    className: \"footer__social_link\",\n    href: \"https://www.madetech.com/ext/github\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_github_svg__WEBPACK_IMPORTED_MODULE_4___default.a,\n    alt: \"GitHub\",\n    height: \"25\"\n  }))))));\n}\n\n//# sourceURL=webpack:///./src/components/Footer/index.js?");
 
 /***/ }),
 
@@ -135,6 +169,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return TopBar; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar defaultLinks = [react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n  href: \"/blog\"\n}, \"Blog\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n  href: \"/careers\"\n}, \"Careers\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n  href: \"/contact\"\n}, \"Contact Us\")];\n\nfunction withSpaces(links) {\n  var reducer = function reducer(linksWithSpaces, link) {\n    return linksWithSpaces.concat(link, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n      className: \"space\"\n    }));\n  };\n\n  return links.reduce(reducer, []).slice(0, -1);\n}\n\nfunction TopBar(_ref) {\n  var links = _ref.links;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"top_bar\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"top_bar__inner\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"d-flex justify-content-between\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"Improving software delivery in every organisation\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", null, withSpaces(links || defaultLinks))))));\n}\n\n//# sourceURL=webpack:///./src/components/TopBar/index.js?");
+
+/***/ }),
+
+/***/ "./src/images/github.svg":
+/*!*******************************!*\
+  !*** ./src/images/github.svg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"static/media/github.f5822558.svg\";\n\n//# sourceURL=webpack:///./src/images/github.svg?");
+
+/***/ }),
+
+/***/ "./src/images/linkedin.svg":
+/*!*********************************!*\
+  !*** ./src/images/linkedin.svg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"static/media/linkedin.73363b9c.svg\";\n\n//# sourceURL=webpack:///./src/images/linkedin.svg?");
+
+/***/ }),
+
+/***/ "./src/images/twitter.svg":
+/*!********************************!*\
+  !*** ./src/images/twitter.svg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"static/media/twitter.ebcd0fbc.svg\";\n\n//# sourceURL=webpack:///./src/images/twitter.svg?");
 
 /***/ }),
 

@@ -8593,6 +8593,29 @@ body {
   text-decoration: underline;
 }
 
+.footer {
+  background: #222;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footer__logo img,
+.footer__social_link img {
+  opacity: .7;
+}
+
+.footer__logo:hover img, .footer__logo:focus img,
+.footer__social_link:hover img,
+.footer__social_link:focus img {
+  opacity: 1;
+}
+
+.footer__social_link {
+  margin-left: .5rem;
+}
+
 .top_bar {
   background: #252525;
   color: #fff;
