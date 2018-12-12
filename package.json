@@ -24,7 +24,7 @@
   "author": "Made Tech <hello@madetech.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@madetech/marketing-assets": "^1.2.0",
+    "@madetech/marketing-assets": "^1.3.0",
     "bootstrap": "^4.1.3",
     "reactstrap": "^6.5.0"
   },
