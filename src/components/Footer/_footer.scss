@@ -1,0 +1,24 @@
+.footer {
+  background: #222;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footer__logo,
+.footer__social_link {
+  img {
+    opacity: .7;
+  }
+
+  &:hover, &:focus {
+    img {
+      opacity: 1;
+    }
+  }
+}
+
+.footer__social_link {
+  margin-left: .5rem;
+}
