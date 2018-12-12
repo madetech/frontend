@@ -15,7 +15,7 @@ export default function Footer () {
 
           <div className='col-lg-4 text-center'>
             <a className='footer__logo' href='https://www.madetech.com' rel='home'>
-              <img src={logoSrc} height='25' />
+              <img src={logoSrc} height='25' alt='Made Tech' />
             </a>
           </div>
 
