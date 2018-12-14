@@ -25,7 +25,7 @@ export default function TopBar ({ links }) {
             </div>
 
             <nav>
-              {withSpaces(links || defaultLinks)}
+              {withSpaces(links || defaultLinks).map((link, i) => <span key={i}>{link}</span>)}
             </nav>
           </div>
         </div>
