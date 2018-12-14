@@ -10,7 +10,7 @@ export default function Footer () {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-4 d-none d-lg-block'>
-            © <span itemprop='copyrightYear'>2018</span> <span itemprop='copyrightHolder' itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Made Tech Limited.</span></span>
+            © <span itemProp='copyrightYear'>2018</span> <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech Limited.</span></span>
           </div>
 
           <div className='col-lg-4 text-center'>
