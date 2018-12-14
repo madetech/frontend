@@ -45,7 +45,6 @@ function PageNumbers ({ currentPage, hrefPrefix, totalPages }) {
   }
 
   return pages.filter(page => page > 0 && page <= totalPages).map((page, i) => {
-    console.log(currentPage === page)
     return (
       <Reactstrap.PaginationItem active={currentPage === page} key={i}>
         <Reactstrap.PaginationLink href={buildHref(hrefPrefix, page)}>
