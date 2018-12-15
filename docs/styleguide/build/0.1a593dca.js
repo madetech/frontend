@@ -96,6 +96,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./node_modules/@madetech/marketing-assets/icons/github.svg":
+/*!******************************************************************!*\
+  !*** ./node_modules/@madetech/marketing-assets/icons/github.svg ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"static/media/github.f5822558.svg\";\n\n//# sourceURL=webpack:///./node_modules/@madetech/marketing-assets/icons/github.svg?");
+
+/***/ }),
+
+/***/ "./node_modules/@madetech/marketing-assets/icons/linkedin.svg":
+/*!********************************************************************!*\
+  !*** ./node_modules/@madetech/marketing-assets/icons/linkedin.svg ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"static/media/linkedin.73363b9c.svg\";\n\n//# sourceURL=webpack:///./node_modules/@madetech/marketing-assets/icons/linkedin.svg?");
+
+/***/ }),
+
+/***/ "./node_modules/@madetech/marketing-assets/icons/twitter.svg":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@madetech/marketing-assets/icons/twitter.svg ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"static/media/twitter.ebcd0fbc.svg\";\n\n//# sourceURL=webpack:///./node_modules/@madetech/marketing-assets/icons/twitter.svg?");
+
+/***/ }),
+
 /***/ "./node_modules/@madetech/marketing-assets/logos/made-tech-logo-colour.png":
 /*!*********************************************************************************!*\
   !*** ./node_modules/@madetech/marketing-assets/logos/made-tech-logo-colour.png ***!
