@@ -13,13 +13,13 @@ export default function Footer () {
             © <span itemProp='copyrightYear'>2018</span> <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech Limited.</span></span>
           </div>
 
-          <div className='col-8 col-lg-4 text-left text-lg-center'>
+          <div className='col-7 col-lg-4 text-left text-lg-center'>
             <a className='footer__logo' href='https://www.madetech.com' rel='home'>
               <img src={logoSrc} height='25' alt='Made Tech' />
             </a>
           </div>
 
-          <nav className='col-4 col-lg-4 text-right'>
+          <nav className='col-5 col-lg-4 text-right'>
             <a className='footer__social_link' href='https://www.madetech.com/ext/linkedin'>
               <img src={linkedinSrc} alt='LinkedIn' height='25' />
             </a>
