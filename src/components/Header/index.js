@@ -49,7 +49,7 @@ export default class Header extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <div className='ml-auto'>
                 <Nav>
-                  {this.props.navLinks.map((link, i) => <span key={i}>{link}</span>)}
+                  {this.props.children}
                 </Nav>
               </div>
             </Collapse>

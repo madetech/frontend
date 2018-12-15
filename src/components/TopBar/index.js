@@ -14,7 +14,7 @@ function withSpaces (links) {
   return links.reduce(reducer, []).slice(0, -1)
 }
 
-export default function TopBar ({ links }) {
+export default function TopBar ({ children }) {
   return (
     <div className='top_bar'>
       <div className='top_bar__inner'>
@@ -25,7 +25,7 @@ export default function TopBar ({ links }) {
             </div>
 
             <nav>
-              {withSpaces(links || defaultLinks).map((link, i) => <span key={i}>{link}</span>)}
+              {withSpaces(children || defaultLinks).map((link, i) => <span key={i}>{link}</span>)}
             </nav>
           </div>
         </div>
