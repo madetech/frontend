@@ -1,17 +1,29 @@
 import React from 'react'
 
-const defaultLinks = [
-  <a href='/blog'>Blog</a>,
-  <a href='/careers'>Careers</a>,
-  <a href='/contact'>Contact Us</a>
-]
+function DefaultLinks () {
+  return (
+    <>
+      <span className='top_bar__item'>
+        <a href='/blog'>Blog</a>
+      </span>
 
-function withSpaces (links) {
-  const reducer = (linksWithSpaces, link) => {
-    return linksWithSpaces.concat(link, <span className='space'></span>)
-  }
+      <span className='top_bar__item'>
+        <a href='/careers'>Careers</a>
+      </span>
 
-  return links.reduce(reducer, []).slice(0, -1)
+      <span className='top_bar__item'>
+        <a href='/contact'>Contact Us</a>
+      </span>
+    </>
+  )
+}
+
+function wrapItem (link) {
+  return (
+    <span className='top_bar__item'>
+      {link}
+    </span>
+  )
 }
 
 export default function TopBar ({ children }) {
@@ -25,7 +37,7 @@ export default function TopBar ({ children }) {
             </div>
 
             <nav>
-              {withSpaces(children || defaultLinks).map((link, i) => <span key={i}>{link}</span>)}
+              {children ? React.Children.map(children, wrapItem) : <DefaultLinks />}
             </nav>
           </div>
         </div>
