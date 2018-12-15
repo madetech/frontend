@@ -6,7 +6,7 @@ import githubSrc from '@madetech/marketing-assets/icons/github.svg'
 
 export default function Footer () {
   return (
-    <div className='footer'>
+    <footer className='footer'>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-4 d-none d-lg-block'>
@@ -34,6 +34,6 @@ export default function Footer () {
           </nav>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
