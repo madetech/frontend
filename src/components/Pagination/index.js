@@ -2,8 +2,13 @@ import React from 'react'
 import * as Reactstrap from 'reactstrap'
 
 function buildHref(hrefPrefix, page) {
-  if (page === 1) return hrefPrefix
-  return `${hrefPrefix}/${page}`
+  if (page === 0 || page === 1) return hrefPrefix
+
+  if (hrefPrefix[hrefPrefix.length - 1] !== '/')  {
+    hrefPrefix += '/'
+  }
+  
+  return `${hrefPrefix}${page}`
 }
 
 function PreviousPage ({ currentPage, hrefPrefix }) {
