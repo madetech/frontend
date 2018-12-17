@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import TopBar from '../components/TopBar'
 import Ribbon from 'rsg-components/Ribbon';
@@ -20,27 +21,23 @@ export function StyleGuideRenderer({
         ]}
         />
 
-      <Header
-        logoHref='..'
-        logoText='Frontend'
-        navLinks={[
-          <a href='..' className='nav-link mx-1'>
-            Home
-          </a>,
+      <Header logoHref='..' logoText='Frontend'>
+        <a href='..' className='nav-link mx-1'>
+          Home
+        </a>
 
-          <a href='../getting-started' className='nav-link mx-1'>
-            Documentation
-          </a>,
+        <a href='../getting-started' className='nav-link mx-1'>
+          Documentation
+        </a>
 
-          <a href='.' className='nav-link mx-1'>
-            Styleguide
-          </a>,
+        <a href='.' className='nav-link mx-1'>
+          Styleguide
+        </a>
 
-          <a href='https://github.com/madetech/frontend' className='nav-link mx-1'>
-            GitHub
-          </a>
-        ]}
-        />
+        <a href='https://github.com/madetech/frontend' className='nav-link mx-1'>
+          GitHub
+        </a>
+      </Header>
 
       <main className="container">
         <div className="row">
@@ -54,6 +51,7 @@ export function StyleGuideRenderer({
         </div>
       </main>
 
+      <Footer />
       <Ribbon />
     </div>
   );

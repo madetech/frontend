@@ -14,7 +14,6 @@ const links = !process.env.GH_PAGES ? [] : [
 
 module.exports = {
   title: 'Style Guide | Made Tech Frontend',
-  components: 'src/components/**/index.{js,jsx,ts,tsx}',
   ignore: [
     '**/components/index.js',
     '**/__tests__/**',
@@ -23,6 +22,14 @@ module.exports = {
     '**/*.d.ts'
   ],
   require: requireFiles,
+  sections: [
+    {
+      name: 'Components',
+      components: 'src/components/**/index.{js,jsx,ts,tsx}',
+      exampleMode: 'expand',
+      usageMode: 'expand'
+    }
+  ],
   styleguideDir: 'docs/styleguide',
   styleguideComponents: {
     StyleGuideRenderer: path.join(__dirname, 'src/styleguide/StyleGuideRenderer')
