@@ -28,6 +28,10 @@ module.exports = {
       components: 'src/components/**/index.{js,jsx,ts,tsx}',
       exampleMode: 'expand',
       usageMode: 'expand'
+    },
+    {
+      name: 'Typography',
+      href: '/typography'
     }
   ],
   styleguideDir: 'docs/styleguide',
