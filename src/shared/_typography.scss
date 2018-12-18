@@ -6,3 +6,10 @@ body {
   -moz-font-feature-settings: "liga" 0;
   font-feature-settings: "liga" 0;
 }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'neuzeit-s-book';
+  font-weight: bold;
+  line-height: 1.5;
+}
