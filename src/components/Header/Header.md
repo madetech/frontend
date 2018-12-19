@@ -34,4 +34,14 @@ Example with custom logo:
     Ask for Help
   </a>
 </Header>
+
+<Header logoBy={false} logoHref='/' logoText='Blog'>
+  <a href='/' className='nav-link'>
+    Getting Started
+  </a>
+
+  <a href='/help' className='nav-link'>
+    Ask for Help
+  </a>
+</Header>
 ```

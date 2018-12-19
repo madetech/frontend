@@ -4,8 +4,8 @@ import Logo from './Logo'
 import LogoType from './LogoType'
 import Nav from './Nav'
 
-function HeaderLogo ({ logoHref, logoText }) {
-  const logo = logoText ? <LogoType text={logoText} /> : <Logo />
+function HeaderLogo ({ logoBy, logoHref, logoText }) {
+  const logo = logoText ? <LogoType by={logoBy} text={logoText} /> : <Logo />
 
   if (logoHref) {
     return (
@@ -39,7 +39,7 @@ export default class Header extends React.Component {
         <div className='header__inner'>
           <Navbar expand='lg' className='p-0'>
             <div className='navbar-brand mr-auto'>
-              <HeaderLogo logoHref={this.props.logoHref} logoText={this.props.logoText} />
+              <HeaderLogo logoBy={this.props.logoBy} logoHref={this.props.logoHref} logoText={this.props.logoText} />
             </div>
 
             <NavbarToggler className='header__toggler d-lg-none' onClick={this.toggle}>
