@@ -1,21 +1,25 @@
 .top_bar {
   background: #252525;
   color: #fff;
-  font-size: .9rem;
-  min-height: .3em;
+  font-size: .8rem;
+  min-height: .3rem;
 
   a {
     color: #fff;
     text-decoration: underline;
   }
+
+  @include media-breakpoint-up(sm) {
+    font-size: .9rem;
+  }
 }
 
 .top_bar__inner {
-  display: none;
-  padding: 1em 0;
+  padding: .5rem 0;
+  text-align: center;
 
   @include media-breakpoint-up(md) {
-    display: block;
+    padding: 1rem 0;
   }
 }
 

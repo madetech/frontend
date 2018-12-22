@@ -31,8 +31,8 @@ export default function TopBar ({ children }) {
     <div className='top_bar'>
       <div className='top_bar__inner'>
         <div className='container'>
-          <div className='d-flex justify-content-between'>
-            <div>
+          <div className='d-md-flex justify-content-md-between'>
+            <div className='d-none d-md-block'>
               Improving software delivery in every organisation
             </div>
 
