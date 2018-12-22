@@ -9,7 +9,12 @@
 .footer__logo,
 .footer__social_link {
   img {
+    height: 20px;
     opacity: .7;
+
+    @include media-breakpoint-up(lg) {
+      height: 22px;
+    }
   }
 
   &:hover, &:focus {
