@@ -1,5 +1,5 @@
 import React from 'react'
-import { Collapse, Navbar, NavbarToggler } from 'reactstrap'
+import { Navbar } from 'reactstrap'
 import Logo from './Logo'
 import LogoType from './LogoType'
 import Nav from './Nav'
@@ -16,46 +16,24 @@ function HeaderLogo ({ logoBy, logoHref, logoText }) {
   }
 }
 
-export default class Header extends React.Component {
-  constructor (props) {
-    super(props)
+export default function Header ({ children, logoBy, logoHref, logoText }) {
+  return (
+    <header className='header'>
+      <div className='header__inner'>
+        <Navbar expand className='p-0 flex-column flex-lg-row'>
+          <div className='navbar-brand mr-lg-auto'>
+            <HeaderLogo
+              logoBy={logoBy}
+              logoHref={logoHref}
+              logoText={logoText}
+              />
+          </div>
 
-    this.toggle = this.toggle.bind(this)
-
-    this.state = {
-     isOpen: false
-    }
-  }
-
-  toggle () {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
-
-  render () {
-    return (
-      <header className='header'>
-        <div className='header__inner'>
-          <Navbar expand='lg' className='p-0'>
-            <div className='navbar-brand mr-auto'>
-              <HeaderLogo logoBy={this.props.logoBy} logoHref={this.props.logoHref} logoText={this.props.logoText} />
-            </div>
-
-            <NavbarToggler className='header__toggler d-lg-none' onClick={this.toggle}>
-              <span className='header__toggler_icon'></span>
-            </NavbarToggler>
-
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <div className='ml-auto'>
-                <Nav>
-                  {this.props.children}
-                </Nav>
-              </div>
-            </Collapse>
-          </Navbar>
-        </div>
-      </header>
-    )
-  }
+          <Nav>
+            {children}
+          </Nav>
+        </Navbar>
+      </div>
+    </header>
+  )
 }
