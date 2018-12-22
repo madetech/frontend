@@ -4,7 +4,7 @@ import Logo from './Logo'
 function LogoTypeImitation ({ textWithoutSpaces }) {
   return (
     <div className='header_logo_type'>
-      <div className='position-relative mr-3' style={{ top: '-2px' }}>
+      <div className='position-relative mr-3' style={{ top: '-3px' }}>
         <Logo width='162px' />
       </div>
 
