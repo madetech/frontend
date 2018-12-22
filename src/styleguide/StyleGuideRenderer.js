@@ -39,11 +39,11 @@ export function StyleGuideRenderer({
 
       <main className="container">
         <div className="row">
-  				<div className="col-lg-3 border-right">
+  				<div className="col-lg-2 border-right">
   					{toc}
   				</div>
 
-          <div className="col-md-9">
+          <div className="col-md-10">
             {children}
           </div>
         </div>
