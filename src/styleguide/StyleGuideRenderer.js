@@ -12,14 +12,12 @@ export function StyleGuideRenderer({
 }) {
   return (
     <div>
-      <TopBar
-        links={[
-          <a href='https://www.madetech.com'>Who are Made Tech?</a>,
-          <a href='https://www.madetech.com/blog'>Blog</a>,
-          <a href='https://learn.madetech.com'>Learn</a>,
-          <a href='https://www.madetech.com/careers'>Careers</a>
-        ]}
-        />
+      <TopBar>
+        <a href='https://www.madetech.com'>Who are Made Tech?</a>
+        <a href='https://www.madetech.com/blog'>Blog</a>
+        <a href='https://learn.madetech.com'>Learn</a>
+        <a href='https://www.madetech.com/careers'>Careers</a>
+      </TopBar>
 
       <Header logoHref='..' logoText='Frontend'>
         <a href='..' className='nav-link mx-1'>
