@@ -1,7 +1,7 @@
-Example with Made Tech logo:
+Example with Made Tech logo and constrainWidth:
 
 ```jsx
-<Header logoHref='/'>
+<Header logoHref='/' constrainLinkWidth>
   <a href='/agile-transformation' className='nav-link'>
     Agile Team Transformation
   </a>
@@ -15,9 +15,7 @@ Example with Made Tech logo:
   </a>
 
   <a href='/devops' className='nav-link'>
-    DevOps &amp;
-    <br className='d-none d-lg-block' />
-    Live Services
+    DevOps &amp; <br className='d-none d-lg-block' />Live Services
   </a>
 </Header>
 ```

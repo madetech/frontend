@@ -1,8 +1,8 @@
-.header_nav a {
+.header_nav a,
+.header_nav--constrain-link-width a {
   color: #333;
   font-size: .9rem;
   text-align: center;
-  max-width: 8rem;
 
   @include media-breakpoint-up(sm) {
     font-size: 1.1rem;
@@ -10,6 +10,13 @@
 
   @include media-breakpoint-up(lg) {
     font-size: 1.2rem;
+  }
+}
+
+.header_nav--constrain-link-width a {
+  max-width: 8rem;
+
+  @include media-breakpoint-up(lg) {
     max-width: 9rem;
   }
 }
