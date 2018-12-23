@@ -33,6 +33,17 @@ eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! rea
 
 /***/ }),
 
+/***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Prose/Prose.md":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Prose/Prose.md ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! react */ \"./node_modules/react/index.js\") };\nvar requireInRuntimeBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime */ \"./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime.js\");\nvar requireInRuntime = requireInRuntimeBase.bind(null, requireMap);\nvar evalInContextBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/evalInContext */ \"./node_modules/react-styleguidist/loaders/utils/client/evalInContext.js\");\nvar evalInContext = evalInContextBase.bind(null, \"var React = require('react');\", requireInRuntime);\n\nmodule.exports = [{\n        'type': 'code',\n        'content': '<Prose>\\n  <h1>heading 1</h1>\\n  <h2>heading 1</h2>\\n  <h3>heading 1</h3>\\n  <h4>heading 1</h4>\\n\\n  <p>\\n    Some text with <a href=\\'#\\'>a link</a>.\\n  </p>\\n\\n  <blockquote>\\n    <p>A quote from someone</p>\\n  </blockquote>\\n</Prose>',\n        'settings': {},\n        'evalInContext': evalInContext\n    }]\n\t\n\n//# sourceURL=webpack:///./src/components/Prose/Prose.md?./node_modules/react-styleguidist/loaders/examples-loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/TopBar/TopBar.md":
 /*!******************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/TopBar/TopBar.md ***!
@@ -84,7 +95,7 @@ eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displa
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'Prose',\n    'methods': [],\n    'doclets': {},\n    'examples': []\n}\n\t\n\n//# sourceURL=webpack:///./src/components/Prose/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
+eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'Prose',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Prose/Prose.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Prose/Prose.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/Prose/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
 
 /***/ }),
 
