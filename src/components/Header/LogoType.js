@@ -17,8 +17,12 @@ function LogoTypeBy ({ textWithoutSpaces }) {
   return (
     <div className='header_logo_type--by'>
       <span className='header_logo_type__text'>{textWithoutSpaces}</span>
+
       <span className='px-3'>by</span>
-      <Logo width='120px' />
+
+      <span className='position-relative' style={{ top: '-2px' }}>
+        <Logo width='120px' />
+      </span>
     </div>
   )
 }
