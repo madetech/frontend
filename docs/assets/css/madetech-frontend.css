@@ -8701,8 +8701,7 @@ h2, h3, h4 {
 }
 
 .prose img {
-  height: auto !important;
-  max-width: 100% !important;
+  max-width: 100%;
 }
 
 .top_bar {
