@@ -4,6 +4,11 @@
   font-size: 1.1rem;
   text-align: center;
 
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
   @include media-breakpoint-up(sm) {
     font-size: 1.15rem;
   }
@@ -19,10 +24,4 @@
   @include media-breakpoint-up(lg) {
     max-width: 9rem;
   }
-}
-
-.header_nav a:hover,
-.header_nav a:focus {
-  color: #333;
-  text-decoration: underline;
 }
