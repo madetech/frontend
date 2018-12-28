@@ -1,11 +1,11 @@
 .header_nav a,
 .header_nav--constrain-link-width a {
   color: #333;
-  font-size: .9rem;
+  font-size: 1.1rem;
   text-align: center;
 
   @include media-breakpoint-up(sm) {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
 
   @include media-breakpoint-up(lg) {

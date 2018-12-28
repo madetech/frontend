@@ -1,16 +1,12 @@
 .top_bar {
   background: #252525;
   color: #fff;
-  font-size: .8rem;
+  font-size: .9rem;
   min-height: .3rem;
 
   a {
     color: #fff;
     text-decoration: underline;
-  }
-
-  @include media-breakpoint-up(sm) {
-    font-size: .9rem;
   }
 }
 

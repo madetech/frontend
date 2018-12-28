@@ -1,3 +1,11 @@
+html {
+  font-size: 14px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+  }
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: no-common-ligatures;
@@ -16,23 +24,7 @@ h1, h2, h3, h4, h5, h6,
 
 @include media-breakpoint-down(md) {
   h1, .h1 {
-    font-size: $h1-font-size * $font-size-reduction-down-md;
-  }
-
-  h2, .h2 {
-    font-size: $h2-font-size * $font-size-reduction-down-md;
-  }
-
-  h3, .h3 {
-    font-size: $h3-font-size * $font-size-reduction-down-md;
-  }
-
-  h4, .h4 {
-    font-size: $h4-font-size * $font-size-reduction-down-md;
-  }
-
-  h5, .h5 {
-    font-size: $h5-font-size * $font-size-reduction-down-md + .05;
+    // font-size: $font-size-base * 2.25;
   }
 }
 
