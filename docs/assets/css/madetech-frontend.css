@@ -8528,6 +8528,16 @@ a.text-dark:hover, a.text-dark:focus {
   font-variant: normal;
 }
 
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: no-common-ligatures;
@@ -8542,24 +8552,6 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'neuzeit-s-book';
   font-weight: bold;
   line-height: 1.5;
-}
-
-@media (max-width: 991.98px) {
-  h1, .h1 {
-    font-size: 2.3rem;
-  }
-  h2, .h2 {
-    font-size: 1.84rem;
-  }
-  h3, .h3 {
-    font-size: 1.61rem;
-  }
-  h4, .h4 {
-    font-size: 1.38rem;
-  }
-  h5, .h5 {
-    font-size: 1.2rem;
-  }
 }
 
 h1, .h1 {
@@ -8613,14 +8605,14 @@ h2, h3, h4, h5, h6,
 .header_nav a,
 .header_nav--constrain-link-width a {
   color: #333;
-  font-size: .9rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 
 @media (min-width: 576px) {
   .header_nav a,
   .header_nav--constrain-link-width a {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
 }
 
@@ -8726,19 +8718,13 @@ h2, h3, h4, h5, h6,
 .top_bar {
   background: #252525;
   color: #fff;
-  font-size: .8rem;
+  font-size: .9rem;
   min-height: .3rem;
 }
 
 .top_bar a {
   color: #fff;
   text-decoration: underline;
-}
-
-@media (min-width: 576px) {
-  .top_bar {
-    font-size: .9rem;
-  }
 }
 
 .top_bar__inner {
