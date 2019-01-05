@@ -16,7 +16,7 @@ function HeaderLogo ({ logoBy, logoHref, logoText }) {
   }
 }
 
-export default function Header ({ constrainLinkWidth, children, logoBy, logoHref, logoText }) {
+export default function Header ({ constrainLinkWidth, children, logoBy, logoHref, logoText, scrollable }) {
   return (
     <header className='header'>
       <div className='header__inner'>
@@ -29,7 +29,7 @@ export default function Header ({ constrainLinkWidth, children, logoBy, logoHref
               />
           </div>
 
-          <Nav constrainLinkWidth={constrainLinkWidth}>
+          <Nav constrainLinkWidth={constrainLinkWidth} scrollable={scrollable}>
             {children}
           </Nav>
         </Navbar>

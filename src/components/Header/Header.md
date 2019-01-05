@@ -20,6 +20,32 @@ Example with Made Tech logo and constrainWidth:
 </Header>
 ```
 
+Example with Made Tech logo, constrainWidth and scrollable:
+
+```jsx
+<Header logoHref='/' constrainLinkWidth scrollable>
+  <a href='/agile-transformation' className='nav-link'>
+    Agile Team Transformation
+  </a>
+
+  <a href='/software-development' className='nav-link'>
+    Software Development
+  </a>
+
+  <a href='/continuous-delivery' className='nav-link'>
+    Continuous Delivery
+  </a>
+
+  <a href='/devops' className='nav-link'>
+    DevOps
+  </a>
+
+  <a href='/live-services' className='nav-link'>
+    Reliability Engineering
+  </a>
+</Header>
+```
+
 Example with custom logo:
 
 ```jsx

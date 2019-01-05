@@ -1,5 +1,11 @@
-.header_nav a,
-.header_nav--constrain-link-width a {
+.header_nav.scrollable {
+  @include media-breakpoint-down(sm) {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+}
+
+.header_nav a {
   color: #333;
   font-size: 1.1rem;
   text-align: center;
@@ -18,10 +24,6 @@
   }
 }
 
-.header_nav--constrain-link-width a {
-  max-width: 8rem;
-
-  @include media-breakpoint-up(lg) {
-    max-width: 9rem;
-  }
+.header_nav.constrain-link-width a {
+  max-width: 9rem;
 }
