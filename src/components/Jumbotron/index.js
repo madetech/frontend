@@ -7,13 +7,7 @@ export default function Jumbotron ({ extraClassName, children }) {
 
   return (
     <div className={className}>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-lg-8 offset-lg-2'>
-            {children}
-          </div>
-        </div>
-      </div>
+      {children}
     </div>
   )
 }
