@@ -9,10 +9,16 @@ function HeaderLogo ({ logoBy, logoHref, logoText }) {
 
   if (logoHref) {
     return (
-      <a href={logoHref} className='header__logo_link'>{logo}</a>
+      <div className='header__logo'>
+        <a href={logoHref} className='header__logo_link'>{logo}</a>
+      </div>
     )
   } else {
-    return logo
+    return (
+      <div className='header__logo'>
+        {logo}
+      </div>
+    )
   }
 }
 

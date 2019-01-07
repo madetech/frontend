@@ -3,14 +3,11 @@
 }
 
 .header__inner {
-  padding: 1em 0;
+  padding: 1rem 0;
 }
 
-.header__toggler {
-  border-color: rgba(0,0,0,.1);
-  color: rgba(0,0,0,.5);
-  float: right;
-  border-radius: .2em;
+.header__logo {
+  padding: .5rem 0;
 }
 
 .header__logo_link,
@@ -18,15 +15,4 @@
 .header__logo_link:focus {
   color: #000;
   text-decoration: none;
-}
-
-.header__toggler_icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
-  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
