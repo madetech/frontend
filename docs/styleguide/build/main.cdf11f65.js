@@ -22,6 +22,17 @@ eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! rea
 
 /***/ }),
 
+/***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Jumbotron/Jumbotron.md":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Jumbotron/Jumbotron.md ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! react */ \"./node_modules/react/index.js\") };\nvar requireInRuntimeBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime */ \"./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime.js\");\nvar requireInRuntime = requireInRuntimeBase.bind(null, requireMap);\nvar evalInContextBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/evalInContext */ \"./node_modules/react-styleguidist/loaders/utils/client/evalInContext.js\");\nvar evalInContext = evalInContextBase.bind(null, \"var React = require('react');\", requireInRuntime);\n\nmodule.exports = [\n    {\n        'type': 'code',\n        'content': '<Jumbotron>\\n  <h1>Made Tech Blog</h1>\\n  <p>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>\\n</Jumbotron>',\n        'settings': {},\n        'evalInContext': evalInContext\n    },\n    {\n        'type': 'markdown',\n        'content': 'You can add extra class names to the Jumbotron like so:'\n    },\n    {\n        'type': 'code',\n        'content': '<Jumbotron extraClassName=\\'py-3\\'>\\n  <h1>Made Tech Blog</h1>\\n  <p>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>\\n</Jumbotron>',\n        'settings': {},\n        'evalInContext': evalInContext\n    }\n]\n\t\n\n//# sourceURL=webpack:///./src/components/Jumbotron/Jumbotron.md?./node_modules/react-styleguidist/loaders/examples-loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Pagination/Pagination.md":
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Pagination/Pagination.md ***!
@@ -74,6 +85,17 @@ eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displa
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'Header',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Header/Header.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Header/Header.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/Header/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/Jumbotron/index.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/Jumbotron/index.js ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'Jumbotron',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Jumbotron/Jumbotron.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Jumbotron/Jumbotron.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/Jumbotron/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
 
 /***/ }),
 
@@ -154,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Nav; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Nav(_ref) {\n  var constrainLinkWidth = _ref.constrainLinkWidth,\n      children = _ref.children,\n      scrollable = _ref.scrollable;\n  var className = 'header_nav';\n  if (constrainLinkWidth) className += ' constrain-link-width';\n  if (scrollable) className += ' scrollable';\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: className\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", {\n    className: \"navbar-nav align-items-center\"\n  }, children));\n}\n\n//# sourceURL=webpack:///./src/components/Header/Nav.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Nav; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Nav(_ref) {\n  var constrainLinkWidth = _ref.constrainLinkWidth,\n      children = _ref.children,\n      scrollable = _ref.scrollable;\n  var className = 'header_nav';\n  if (constrainLinkWidth) className += ' constrain-link-width';\n  if (scrollable) className += ' scrollable';\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: className\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"header_nav__inner\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", {\n    className: \"navbar-nav align-items-center\"\n  }, children)));\n}\n\n//# sourceURL=webpack:///./src/components/Header/Nav.js?");
 
 /***/ }),
 
@@ -167,6 +189,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Header; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/dist/reactstrap.es.js\");\n/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Logo */ \"./src/components/Header/Logo.js\");\n/* harmony import */ var _LogoType__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./LogoType */ \"./src/components/Header/LogoType.js\");\n/* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Nav */ \"./src/components/Header/Nav.js\");\n\n\n\n\n\n\nfunction HeaderLogo(_ref) {\n  var logoBy = _ref.logoBy,\n      logoHref = _ref.logoHref,\n      logoText = _ref.logoText;\n  var logo = logoText ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LogoType__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n    by: logoBy,\n    text: logoText\n  }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null);\n\n  if (logoHref) {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n      href: logoHref,\n      className: \"header__logo_link\"\n    }, logo);\n  } else {\n    return logo;\n  }\n}\n\nfunction Header(_ref2) {\n  var constrainLinkWidth = _ref2.constrainLinkWidth,\n      children = _ref2.children,\n      logoBy = _ref2.logoBy,\n      logoHref = _ref2.logoHref,\n      logoText = _ref2.logoText,\n      scrollable = _ref2.scrollable;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", {\n    className: \"header\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"header__inner\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__[\"Navbar\"], {\n    expand: true,\n    className: \"p-0 flex-column flex-lg-row\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"navbar-brand mr-lg-auto\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderLogo, {\n    logoBy: logoBy,\n    logoHref: logoHref,\n    logoText: logoText\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n    constrainLinkWidth: constrainLinkWidth,\n    scrollable: scrollable\n  }, children))));\n}\n\n//# sourceURL=webpack:///./src/components/Header/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/Jumbotron/index.js":
+/*!*******************************************!*\
+  !*** ./src/components/Jumbotron/index.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Jumbotron; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Jumbotron(_ref) {\n  var extraClassName = _ref.extraClassName,\n      children = _ref.children;\n  var className = 'jumbotron jumbotron-fluid';\n  if (extraClassName) className += \" \".concat(extraClassName);\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: className\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"row\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-lg-8 offset-lg-2\"\n  }, children))));\n}\n\n//# sourceURL=webpack:///./src/components/Jumbotron/index.js?");
 
 /***/ }),
 
