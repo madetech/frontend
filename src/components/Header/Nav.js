@@ -8,9 +8,11 @@ export default function Nav ({ constrainLinkWidth, children, scrollable }) {
 
   return (
     <div className={className}>
-      <nav className='navbar-nav align-items-center'>
-        {children}
-      </nav>
+      <div className='header_nav__inner'>
+        <nav className='navbar-nav align-items-center'>
+          {children}
+        </nav>
+      </div>
     </div>
   )
 }
