@@ -1,12 +1,15 @@
 import React from 'react'
 
-export default function Jumbotron ({ extraClassName, children }) {
-  let className = 'jumbotron jumbotron-fluid'
+export default function Jumbotron ({ backgroundUrl, extraClassName, children }) {
+  const props = {
+    className: 'jumbotron jumbotron-fluid'
+  }
 
-  if (extraClassName) className += ` ${extraClassName}`
+  if (extraClassName) props.className += ` ${extraClassName}`
+  if (backgroundUrl) props.style = { backgroundImage: `url(${backgroundUrl})` }
 
   return (
-    <div className={className}>
+    <div {...props}>
       {children}
     </div>
   )
