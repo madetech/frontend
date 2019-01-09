@@ -3,8 +3,8 @@
   <div className='container'>
     <div className='row'>
       <div className='col-lg-10 offset-lg-1'>
-        <h1 className='display-4'>Made Tech Blog</h1>
-        <p className='lead'>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
+        <h1 style={{ fontSize: '3.5rem' }}>Made Tech Blog</h1>
+        <p style={{ fontSize: '1.8rem' }}>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
       </div>
     </div>
   </div>
