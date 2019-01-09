@@ -3,8 +3,8 @@
   <div className='container'>
     <div className='row'>
       <div className='col-lg-10 offset-lg-1'>
-        <h1>Made Tech Blog</h1>
-        <p>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
+        <h1 className='display-4'>Made Tech Blog</h1>
+        <p className='lead'>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@ You can add extra class names to the Jumbotron like so:
   <div className='container'>
     <div className='row'>
       <div className='col-lg-8 offset-lg-2'>
-        <h1>Made Tech Blog</h1>
+        <h3>Made Tech Blog</h3>
         <p>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
       </div>
     </div>
