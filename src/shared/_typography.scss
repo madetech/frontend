@@ -33,3 +33,27 @@ h2, h3, h4, h5, h6,
   color: #222;
   margin: 1.5rem 0 1rem 0;
 }
+
+blockquote {
+  font-size: 1.8rem;
+  position: relative;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+
+  &::before {
+    color: #ccc;
+    content: '“';
+    display: block;
+    font-family: serif;
+    font-size: 8rem;
+    line-height: 7rem;
+    height: 3rem;
+
+    @include media-breakpoint-up(md) {
+      left: -5rem;
+      line-height: 5rem;
+      position: absolute;
+      top: 0rem;
+      width: 5rem;
+    }
+  }
+}
