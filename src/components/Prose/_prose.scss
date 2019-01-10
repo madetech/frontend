@@ -15,8 +15,12 @@
   blockquote {
     margin: 3rem 0 0 0;
 
-    @include media-breakpoint-up(lg) {
-      margin-left: 10rem;
+    p {
+      font-style: italic;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-left: 5rem;
     }
   }
 
