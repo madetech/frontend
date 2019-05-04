@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -8566,6 +8567,32 @@ h2, h3, h4, h5, h6,
   margin: 1.5rem 0 1rem 0;
 }
 
+blockquote {
+  font-size: 1.8rem;
+  position: relative;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote::before {
+  color: #ccc;
+  content: '“';
+  display: block;
+  font-family: serif;
+  font-size: 8rem;
+  line-height: 7rem;
+  height: 4rem;
+}
+
+@media (min-width: 768px) {
+  blockquote::before {
+    left: -5rem;
+    line-height: 5rem;
+    position: absolute;
+    top: 0rem;
+    width: 5rem;
+  }
+}
+
 .footer {
   background: #222;
   color: #999;
@@ -8602,7 +8629,7 @@ h2, h3, h4, h5, h6,
 }
 
 .header__logo {
-  padding: .5rem 0;
+  padding: .7rem 0;
 }
 
 .header__logo_link,
@@ -8626,6 +8653,8 @@ h2, h3, h4, h5, h6,
   color: #333;
   font-size: 1.1rem;
   text-align: center;
+  padding-left: 0 !important;
+  padding-right: 1rem !important;
 }
 
 .header_nav a:hover, .header_nav a:focus {
@@ -8650,7 +8679,6 @@ h2, h3, h4, h5, h6,
 
 @media (max-width: 767.98px) {
   .header_nav.scrollable {
-    margin-right: -15px;
     max-width: 100%;
     position: relative;
   }
@@ -8681,15 +8709,12 @@ h2, h3, h4, h5, h6,
   background-position: center center;
   background-size: cover;
   color: white;
-  margin: 0 0 1rem 0;
+  margin: 0;
 }
 
-.jumbotron h1 {
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6,
+.jumbotron .h1, .jumbotron .h2, .jumbotron .h3, .jumbotron .h4, .jumbotron .h5, .jumbotron .h6 {
   color: white;
-}
-
-.jumbotron p {
-  font-size: 1.8rem;
 }
 
 .jumbotron a {
@@ -8702,21 +8727,19 @@ h2, h3, h4, h5, h6,
   text-decoration: none;
 }
 
+.jumbotron blockquote::before {
+  color: #fff;
+}
+
 .jumbotron small a {
   font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
   font-size: 1.725rem;
   font-weight: bold;
 }
 
-@media (min-width: 768px) {
-  .jumbotron h1 {
-    font-size: 3.5rem;
-  }
-}
-
 .prose {
   color: #444;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .prose a {
@@ -8730,21 +8753,17 @@ h2, h3, h4, h5, h6,
 }
 
 .prose blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 2.5rem 0px 0px 2.5rem;
-  padding: .5rem 1.5rem;
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin: 3rem 0 0 0;
 }
 
-.prose blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-family: Helvetica;
-  font-size: 7em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+.prose blockquote p {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .prose blockquote {
+    margin-left: 5rem;
+  }
 }
 
 .prose img {
