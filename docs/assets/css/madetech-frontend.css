@@ -547,7 +547,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container, .header {
+.container, .header, .top_bar__inner {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -556,25 +556,25 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, .header {
+  .container, .header, .top_bar__inner {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .header {
+  .container, .header, .top_bar__inner {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .header {
+  .container, .header, .top_bar__inner {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .header {
+  .container, .header, .top_bar__inner {
     max-width: 1140px;
   }
 }
@@ -3742,7 +3742,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-.navbar > .container, .navbar > .header,
+.navbar > .container, .navbar > .header, .navbar > .top_bar__inner,
 .navbar > .container-fluid {
   display: flex;
   flex-wrap: wrap;
@@ -3822,7 +3822,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .navbar-expand-sm > .header,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .header, .navbar-expand-sm > .top_bar__inner,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3844,7 +3844,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-sm > .container, .navbar-expand-sm > .header,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .header, .navbar-expand-sm > .top_bar__inner,
   .navbar-expand-sm > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3858,7 +3858,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .navbar-expand-md > .header,
+  .navbar-expand-md > .container, .navbar-expand-md > .header, .navbar-expand-md > .top_bar__inner,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3880,7 +3880,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-md > .container, .navbar-expand-md > .header,
+  .navbar-expand-md > .container, .navbar-expand-md > .header, .navbar-expand-md > .top_bar__inner,
   .navbar-expand-md > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3894,7 +3894,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .navbar-expand-lg > .header,
+  .navbar-expand-lg > .container, .navbar-expand-lg > .header, .navbar-expand-lg > .top_bar__inner,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3916,7 +3916,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-lg > .container, .navbar-expand-lg > .header,
+  .navbar-expand-lg > .container, .navbar-expand-lg > .header, .navbar-expand-lg > .top_bar__inner,
   .navbar-expand-lg > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3930,7 +3930,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .navbar-expand-xl > .header,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .header, .navbar-expand-xl > .top_bar__inner,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3952,7 +3952,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-xl > .container, .navbar-expand-xl > .header,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .header, .navbar-expand-xl > .top_bar__inner,
   .navbar-expand-xl > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3970,7 +3970,7 @@ input[type="button"].btn-block {
   justify-content: flex-start;
 }
 
-.navbar-expand > .container, .navbar-expand > .header,
+.navbar-expand > .container, .navbar-expand > .header, .navbar-expand > .top_bar__inner,
 .navbar-expand > .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -3989,7 +3989,7 @@ input[type="button"].btn-block {
   padding-left: 0.5rem;
 }
 
-.navbar-expand > .container, .navbar-expand > .header,
+.navbar-expand > .container, .navbar-expand > .header, .navbar-expand > .top_bar__inner,
 .navbar-expand > .container-fluid {
   flex-wrap: nowrap;
 }
@@ -8467,7 +8467,7 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important;
   }
-  .container, .header {
+  .container, .header, .top_bar__inner {
     min-width: 992px !important;
   }
   .navbar {
@@ -8530,13 +8530,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+  font-size: 19px;
 }
 
 body {
@@ -8568,7 +8562,7 @@ h2, h3, h4, h5, h6,
 }
 
 blockquote {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   position: relative;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -8578,18 +8572,18 @@ blockquote::before {
   content: '“';
   display: block;
   font-family: serif;
-  font-size: 8rem;
-  line-height: 7rem;
-  height: 4rem;
+  font-size: 6rem;
+  line-height: 2rem;
+  height: 1rem;
 }
 
 @media (min-width: 768px) {
   blockquote::before {
-    left: -5rem;
-    line-height: 5rem;
+    left: -3rem;
+    line-height: 3rem;
     position: absolute;
     top: 0rem;
-    width: 5rem;
+    width: 3rem;
   }
 }
 
@@ -8651,7 +8645,7 @@ blockquote::before {
 
 .header_nav a {
   color: #333;
-  font-size: 1.1rem;
+  font-size: .8rem;
   text-align: center;
   padding-left: 0 !important;
   padding-right: 1rem !important;
@@ -8661,20 +8655,18 @@ blockquote::before {
   text-decoration: underline;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .header_nav a {
-    font-size: 1.15rem;
+    font-size: .9rem;
+    padding-right: 2rem !important;
   }
-}
-
-@media (min-width: 992px) {
-  .header_nav a {
-    font-size: 1.2rem;
+  .header_nav a:last-child {
+    padding-right: 0 !important;
   }
 }
 
 .header_nav.constrain-link-width a {
-  max-width: 9rem;
+  max-width: 8rem;
 }
 
 @media (max-width: 767.98px) {
@@ -8737,9 +8729,15 @@ blockquote::before {
   font-weight: bold;
 }
 
+@media (min-width: 576px) {
+  .jumbotron {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+}
+
 .prose {
   color: #444;
-  font-size: 1.2rem;
 }
 
 .prose a {
@@ -8762,7 +8760,7 @@ blockquote::before {
 
 @media (min-width: 768px) {
   .prose blockquote {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 }
 
@@ -8773,7 +8771,7 @@ blockquote::before {
 .top_bar {
   background: #252525;
   color: #fff;
-  font-size: .9rem;
+  font-size: .7rem;
   min-height: .3rem;
 }
 
@@ -8782,14 +8780,22 @@ blockquote::before {
   text-decoration: underline;
 }
 
+@media (min-width: 768px) {
+  .top_bar {
+    font-size: .8rem;
+  }
+}
+
 .top_bar__inner {
-  padding: .5rem 0;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
   text-align: center;
 }
 
 @media (min-width: 768px) {
   .top_bar__inner {
-    padding: 1rem 0;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
   }
 }
 
