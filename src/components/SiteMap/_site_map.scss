@@ -1,0 +1,33 @@
+.site_map {
+  background: #333;
+  color: #999;
+  padding: 2rem 0;
+
+  nav {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin-bottom: .5rem;
+  }
+
+  strong {
+    color: #ddd;
+  }
+
+  a {
+    color: #999;
+    display: block;
+    margin-bottom: .5rem;
+    text-decoration: underline;
+    font-size: .8rem;
+
+    &:focus, &:hover {
+      color: #ddd;
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: .9rem;
+    }
+  }
+}

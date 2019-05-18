@@ -1,12 +1,16 @@
 .top_bar {
   background: #252525;
-  color: #fff;
+  color: #ddd;
   font-size: .7rem;
   min-height: .3rem;
 
   a {
-    color: #fff;
+    color: #ddd;
     text-decoration: underline;
+
+    &:focus, &:hover {
+      color: #fff;
+    }
   }
 }
 
@@ -25,7 +29,7 @@
 .top_bar__item {
   &:not(:last-child)::after {
     content: '\2022';
-    color: #fff;
+    color: #999;
     margin-left: 6px;
     margin-right: 9px;
   }
