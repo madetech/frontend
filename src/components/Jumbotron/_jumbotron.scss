@@ -32,4 +32,9 @@
     font-size: $h4-font-size;
     font-weight: bold;
   }
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
 }
