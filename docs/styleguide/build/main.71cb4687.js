@@ -55,6 +55,17 @@ eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! rea
 
 /***/ }),
 
+/***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/SiteMap/SiteMap.md":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/SiteMap/SiteMap.md ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nvar requireMap = { 'react': __webpack_require__(/*! react */ \"./node_modules/react/index.js\") };\nvar requireInRuntimeBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime */ \"./node_modules/react-styleguidist/loaders/utils/client/requireInRuntime.js\");\nvar requireInRuntime = requireInRuntimeBase.bind(null, requireMap);\nvar evalInContextBase = __webpack_require__(/*! ./node_modules/react-styleguidist/loaders/utils/client/evalInContext */ \"./node_modules/react-styleguidist/loaders/utils/client/evalInContext.js\");\nvar evalInContext = evalInContextBase.bind(null, \"var React = require('react');\", requireInRuntime);\n\nmodule.exports = [{\n        'type': 'code',\n        'content': '<SiteMap />',\n        'settings': {},\n        'evalInContext': evalInContext\n    }]\n\t\n\n//# sourceURL=webpack:///./src/components/SiteMap/SiteMap.md?./node_modules/react-styleguidist/loaders/examples-loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/TopBar/TopBar.md":
 /*!******************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/TopBar/TopBar.md ***!
@@ -118,6 +129,17 @@ eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displa
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'Prose',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Prose/Prose.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/Prose/Prose.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/Prose/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/SiteMap/index.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/loaders/props-loader.js!./src/components/SiteMap/index.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nif (false) {}\n\nmodule.exports = {\n    'description': '',\n    'displayName': 'SiteMap',\n    'methods': [],\n    'doclets': {},\n    'examples': __webpack_require__(/*! !./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/SiteMap/SiteMap.md */ \"./node_modules/react-styleguidist/loaders/examples-loader.js!./src/components/SiteMap/SiteMap.md\")\n}\n\t\n\n//# sourceURL=webpack:///./src/components/SiteMap/index.js?./node_modules/react-styleguidist/loaders/props-loader.js");
 
 /***/ }),
 
@@ -225,6 +247,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Prose; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Prose(_ref) {\n  var children = _ref.children;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"prose\"\n  }, children);\n}\n\n//# sourceURL=webpack:///./src/components/Prose/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/SiteMap/index.js":
+/*!*****************************************!*\
+  !*** ./src/components/SiteMap/index.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return SiteMap; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction SiteMap() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"site_map\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"row\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-lg-5 mb-4\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"About Made Tech\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Our mission is to improve software delivery in every organisation. We work with our customers to deliver modern applications and help them move to a faster, leaner, and more agile software delivery model.\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-6 col-lg-3 offset-lg-1\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"Sectors\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/government\"\n  }, \"Government\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/retail\"\n  }, \"Retail\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/startups\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    class: \"translation_missing\",\n    title: \"translation missing: en.footer_navigation.sectors.startups\"\n  }, \"Startups\"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"Services\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/agile-transformation\"\n  }, \"Agile Team Transformation\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/software-development\"\n  }, \"Software Development\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/continuous-delivery\"\n  }, \"Continuous Delivery\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/devops\"\n  }, \"DevOps\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/support-and-maintainance\"\n  }, \"Support & Maintenance\"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"col-6 col-lg-2 offset-lg-1\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"Resources\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/blog\"\n  }, \"Blog\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/resources/ebook\"\n  }, \"E-Books\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"https://learn.madetech.com\"\n  }, \"Learn Tech\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"nav\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"Company\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/careers/academy\"\n  }, \"Academy\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/careers\"\n  }, \"Careers\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/contact\"\n  }, \"Contact Us\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"/ext/handbook\"\n  }, \"Handbook\"))))));\n}\n\n//# sourceURL=webpack:///./src/components/SiteMap/index.js?");
 
 /***/ }),
 
