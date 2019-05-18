@@ -1,6 +1,6 @@
 .header_nav a {
   color: #333;
-  font-size: 1.1rem;
+  font-size: .8rem;
   text-align: center;
   padding-left: 0 !important;
   padding-right: 1rem !important;
@@ -10,17 +10,18 @@
     text-decoration: underline;
   }
 
-  @include media-breakpoint-up(sm) {
-    font-size: 1.15rem;
-  }
+  @include media-breakpoint-up(md) {
+    font-size: .9rem;
+    padding-right: 2rem !important;
 
-  @include media-breakpoint-up(lg) {
-    font-size: 1.2rem;
+    &:last-child {
+      padding-right: 0 !important;
+    }
   }
 }
 
 .header_nav.constrain-link-width a {
-  max-width: 9rem;
+  max-width: 8rem;
 }
 
 @include media-breakpoint-down(sm) {

@@ -1,9 +1,5 @@
 html {
-  font-size: 14px;
-
-  @include media-breakpoint-up(md) {
-    font-size: 16px;
-  }
+  font-size: 19px;
 }
 
 body {
@@ -35,7 +31,7 @@ h2, h3, h4, h5, h6,
 }
 
 blockquote {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   position: relative;
   quotes: "\201C" "\201D" "\2018" "\2019";
 
@@ -44,16 +40,16 @@ blockquote {
     content: '“';
     display: block;
     font-family: serif;
-    font-size: 8rem;
-    line-height: 7rem;
-    height: 4rem;
+    font-size: 6rem;
+    line-height: 2rem;
+    height: 1rem;
 
     @include media-breakpoint-up(md) {
-      left: -5rem;
-      line-height: 5rem;
+      left: -3rem;
+      line-height: 3rem;
       position: absolute;
       top: 0rem;
-      width: 5rem;
+      width: 3rem;
     }
   }
 }

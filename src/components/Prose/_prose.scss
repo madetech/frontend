@@ -1,6 +1,5 @@
 .prose {
   color: #444;
-  font-size: 1.3rem;
 
   a {
     color: #000;
@@ -20,17 +19,11 @@
     }
 
     @include media-breakpoint-up(md) {
-      margin-left: 5rem;
+      margin-left: 3rem;
     }
   }
 
   img {
     max-width: 100%;
-  }
-
-  @include media-breakpoint-down(md) {
-    h1, .h1 {
-      font-size: $font-size-base * 2.25;
-    }
   }
 }
