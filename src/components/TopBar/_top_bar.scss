@@ -8,10 +8,6 @@
     color: #fff;
     text-decoration: underline;
   }
-
-  @include media-breakpoint-up(md) {
-    font-size: .8rem;
-  }
 }
 
 .top_bar__inner {
