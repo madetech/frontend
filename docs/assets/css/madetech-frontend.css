@@ -8771,7 +8771,7 @@ blockquote::before {
 .site_map {
   background: #333;
   color: #999;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem 0;
 }
 
 .site_map nav {
