@@ -6,10 +6,28 @@
   background-size: cover;
   color: white;
   margin: 0;
+  padding-bottom: map-get($spacers, 4);
+  padding-top: map-get($spacers, 4);
 
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
     color: white;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h1 + p {
+    font-size: 1.1rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
   }
 
   a {
@@ -34,7 +52,7 @@
   }
 
   @include media-breakpoint-up(sm) {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: map-get($spacers, 4);
+    padding-top: map-get($spacers, 4);
   }
 }

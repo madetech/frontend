@@ -3,8 +3,8 @@
   <div className='container'>
     <div className='row'>
       <div className='col-lg-10 offset-lg-1'>
-        <h1 style={{ fontSize: '3.5rem' }}>Made Tech Blog</h1>
-        <p style={{ fontSize: '1.8rem' }}>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
+        <h1>Made Tech Blog</h1>
+        <p>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
       </div>
     </div>
   </div>
@@ -14,12 +14,17 @@
 You can add extra class names to the Jumbotron like so:
 
 ```jsx
-<Jumbotron extraClassName='py-3'>
+<Jumbotron extraClassName='py-5 text-center'>
   <div className='container'>
     <div className='row'>
       <div className='col-lg-8 offset-lg-2'>
         <h3>Made Tech Blog</h3>
         <p>Writings on building software delivery capabilities, delivering digital & technology, and running live services for ambitious organisations.</p>
+        <p>
+          <button className='btn btn-outline-light'>
+            Find out more
+          </button>
+        </p>
       </div>
     </div>
   </div>
