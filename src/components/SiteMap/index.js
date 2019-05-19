@@ -15,9 +15,9 @@ export default function SiteMap () {
             <nav>
               <p><strong>Sectors</strong></p>
 
-              <a href="/government">Government</a>
+              <a href="/publicsector">Public Sector</a>
               <a href="/retail">Retail</a>
-              <a href="/startups"><span class="translation_missing" title="translation missing: en.footer_navigation.sectors.startups">Startups</span></a>
+              <a href="/startups">Startups</a>
             </nav>
 
             <nav>
