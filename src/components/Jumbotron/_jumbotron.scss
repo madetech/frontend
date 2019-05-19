@@ -55,4 +55,10 @@
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
+
+  @include media-breakpoint-up(md) {
+    h1 + p {
+      font-size: 1.2rem;
+    }
+  }
 }
