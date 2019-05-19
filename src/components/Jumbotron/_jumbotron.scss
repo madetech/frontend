@@ -6,8 +6,8 @@
   background-size: cover;
   color: white;
   margin: 0;
-  padding-bottom: map-get($spacers, 4);
-  padding-top: map-get($spacers, 4);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -52,7 +52,7 @@
   }
 
   @include media-breakpoint-up(sm) {
-    padding-bottom: map-get($spacers, 4);
-    padding-top: map-get($spacers, 4);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
 }
