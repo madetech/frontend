@@ -4,9 +4,10 @@
   src: marketing-font-url("neuzeit-s-book.eot?#iefix") format("embedded-opentype"),
        marketing-font-url("neuzeit-s-book.woff") format("woff"),
        marketing-font-url("neuzeit-s-book.ttf") format("truetype");
-  font-weight:normal;
-  font-style:normal;
-  font-variant:normal;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -15,9 +16,10 @@
   src: marketing-font-url("neuzeit-gro-reg.eot?#iefix") format("embedded-opentype"),
        marketing-font-url("neuzeit-gro-reg.woff") format("woff"),
        marketing-font-url("neuzeit-gro-reg.ttf") format("truetype");
-  font-weight:normal;
-  font-style:normal;
-  font-variant:normal;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -26,7 +28,8 @@
   src: marketing-font-url("neuzeit-gro-bold.eot?#iefix") format("embedded-opentype"),
        marketing-font-url("neuzeit-gro-bold.woff") format("woff"),
        marketing-font-url("neuzeit-gro-bold.ttf") format("truetype");
-  font-weight:normal;
-  font-style:normal;
-  font-variant:normal;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-display: fallback;
 }
