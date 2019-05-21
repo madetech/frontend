@@ -58,16 +58,15 @@ export default function Layout ({ children }) {
       <Header
         logoHref='/'
         logoText='Learn Tech'
-        navLinks={[
-          <a href='/' className='nav-link'>
-            Getting Started
-          </a>,
+      >
+        <a href='/' className='nav-link'>
+          Getting Started
+        </a>
 
-          <a href='/help' className='nav-link'>
-            Ask for Help
-          </a>
-        ]}
-        />
+        <a href='/help' className='nav-link'>
+          Ask for Help
+        </a>
+      </Header>
 
       {children}
     </div>
