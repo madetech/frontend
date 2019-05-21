@@ -8509,6 +8509,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -8518,6 +8519,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -8527,6 +8529,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
+  font-display: fallback;
 }
 
 html {
@@ -8553,6 +8556,39 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   color: #000;
   margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+h2, .h2 {
+  font-size: 1.4rem;
+}
+
+h3, .h3 {
+  font-size: 1.3rem;
+}
+
+h4, .h4 {
+  font-size: 1.2rem;
+}
+
+h5, .h5 {
+  font-size: 1.1rem;
+}
+
+h6, .h6 {
+  font-size: 1.05rem;
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2.2rem;
+  }
+  h2, .h2 {
+    font-size: 1.6rem;
+  }
+  h3, .h3 {
+    font-size: 1.4rem;
+  }
 }
 
 h2, h3, h4, h5, h6,
@@ -8592,7 +8628,7 @@ blockquote::before {
   color: #999;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .footer__logo img,
@@ -8619,7 +8655,7 @@ blockquote::before {
 }
 
 .header__inner {
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 .header__logo {
@@ -8702,11 +8738,26 @@ blockquote::before {
   background-size: cover;
   color: white;
   margin: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6,
 .jumbotron .h1, .jumbotron .h2, .jumbotron .h3, .jumbotron .h4, .jumbotron .h5, .jumbotron .h6 {
   color: white;
+}
+
+.jumbotron h1:first-child, .jumbotron h2:first-child, .jumbotron h3:first-child, .jumbotron h4:first-child, .jumbotron h5:first-child, .jumbotron h6:first-child,
+.jumbotron .h1:first-child, .jumbotron .h2:first-child, .jumbotron .h3:first-child, .jumbotron .h4:first-child, .jumbotron .h5:first-child, .jumbotron .h6:first-child {
+  margin-top: 0;
+}
+
+.jumbotron h1 + p {
+  font-size: 1.1rem;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
 
 .jumbotron a {
@@ -8731,8 +8782,14 @@ blockquote::before {
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron h1 + p {
+    font-size: 1.2rem;
   }
 }
 

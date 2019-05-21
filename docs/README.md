@@ -1,15 +1,15 @@
 
-<div class="row mt-5">
-  <div class="col-md-6">
-    <h1 class="display-4 mt-2">
+<div class="row mt-lg-3">
+  <div class="col-md-6 text-center text-lg-left">
+    <h1 class="mt-2">
       A frontend kit for Made Tech.
     </h1>
 
     <p class="lead">A collection of assets and components for building Made Tech branded applications and sites.</p>
 
     <p class="lead mt-4">
-      <a href="/getting-started" class="btn btn-dark btn-lg">Get Started</a>
-      <a href="https://github.com/madetech/frontend/releases" class="btn btn-outline-dark btn-lg ml-3">Download</a>
+      <a href="/getting-started" class="btn btn-success">Get Started</a>
+      <a href="https://github.com/madetech/frontend/releases" class="btn btn-outline-success ml-3">Download</a>
     </p>
   </div>
 
