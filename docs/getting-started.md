@@ -16,7 +16,7 @@ The quickest way to get going with Made Tech Frontend is with the compiled asset
 
 Presuming you are starting from scratch:
 
-1. Download latest copy of [Made Tech Frontend](https://github.com/madetech/frontend/releases)
+1. Download latest `madetech-frontend.zip` from [Made Tech Frontend releases](https://github.com/madetech/frontend/releases)
 2. Create a new directory for your project
 3. Create an `index.html` file in that directory and copy the contents of [this example](https://github.com/madetech/frontend/blob/master/examples/static/index.html) into it
 4. Now create an `assets/` directory and put the contents of `dist/` in it
