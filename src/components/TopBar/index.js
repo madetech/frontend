@@ -33,7 +33,7 @@ export default function TopBar ({ children }) {
         <div className='container'>
           <div className='row d-md-flex justify-content-center justify-content-md-between'>
             <div className='d-none d-md-block'>
-              Improving software delivery in every organisation
+              Made Tech is a high-growth provider of Digital, Data and Technology services for the UK Public Sector
             </div>
 
             <nav>

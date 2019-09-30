@@ -1,12 +1,15 @@
 .top_bar {
   background: #252525;
-  color: #ddd;
+  color: #40c842;
   font-size: .7rem;
-  min-height: .3rem;
+  min-height: 3.16rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
 
   a {
+    font-size: 0.74;
     color: #ddd;
-    text-decoration: underline;
 
     &:focus, &:hover {
       color: #fff;
