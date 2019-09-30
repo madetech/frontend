@@ -13,21 +13,12 @@ export default function SiteMap () {
 
           <div className='col-6 col-lg-3 offset-lg-1'>
             <nav>
-              <p><strong>Sectors</strong></p>
-
-              <a href="/publicsector">Public Sector</a>
-              <a href="/retail">Retail</a>
-              <a href="/startups">Startups</a>
-            </nav>
-
-            <nav>
               <p><strong>Services</strong></p>
 
-              <a href="/agile-transformation">Agile Team Transformation</a>
-              <a href="/software-development">Software Development</a>
-              <a href="/continuous-delivery">Continuous Delivery</a>
-              <a href="/devops">DevOps</a>
-              <a href="/support-and-maintainance">Support &amp; Maintenance</a>
+              <a href="/our-services/digital-service-delivery">Digital Service Delivery</a>
+              <a href="/our-services/technology-skill-enablement">Technology Skills Enablement</a>
+              <a href="/our-services/transform-legacy-applications">Transforming Legacy Applications</a>
+              <a href="/our-services/data-infrastructure">Data Infrastructure &amp; Insights</a>
             </nav>
           </div>
 
