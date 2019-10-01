@@ -1,17 +1,18 @@
 .footer {
-  background: #222;
-  color: #999;
+  font-weight: bold;
+  background: $mt-green;
+  color: white;
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
+  height: 60px;
+  font-size: $px14;
 }
 
-.footer__logo,
 .footer__social_link {
   img {
     height: 20px;
-    opacity: .7;
-
+    opacity: 1;
     @include media-breakpoint-up(lg) {
       height: 22px;
     }
@@ -19,11 +20,11 @@
 
   &:hover, &:focus {
     img {
-      opacity: 1;
+      opacity: .7;
     }
   }
 }
 
 .footer__social_link {
-  margin-left: .5rem;
+  margin-left: $px14;
 }
