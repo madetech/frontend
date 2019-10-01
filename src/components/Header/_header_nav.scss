@@ -3,19 +3,24 @@
   font-size: .8rem;
   text-align: center;
   padding-left: 0 !important;
-  padding-right: 1rem !important;
+  padding-right: 0 !important;
+  margin-right: 1rem !important;
+  border-bottom: solid 3px transparent;
+  line-height: 1.1;
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: solid 3px #40c842;
   }
 
   @include media-breakpoint-up(md) {
     font-size: .9rem;
-    padding-right: 2rem !important;
+    padding-right: 0 !important;
+    margin-right: 2rem !important;
 
     &:last-child {
-      padding-right: 0 !important;
+      margin-right: 0 !important;
     }
   }
 }
