@@ -1,5 +1,4 @@
 import React from 'react'
-// import logoSrc from '@madetech/marketing-assets/logos/made-tech-logo-wht.png'
 import linkedinSrc from '@madetech/marketing-assets/icons/linkedin.svg'
 import twitterSrc from '@madetech/marketing-assets/icons/twitter.svg'
 import githubSrc from '@madetech/marketing-assets/icons/github.svg'
@@ -12,12 +11,6 @@ export default function Footer () {
           <div className='col-7 col-lg-4 d-lg-block'>
             © <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech</span></span> <span itemProp='copyrightYear'>2019</span>
           </div>
-
-          {/* <div className='col-7 col-lg-4 text-left text-lg-center'>
-            <a className='footer__logo' href='https://www.madetech.com' rel='home'>
-              <img src={logoSrc} height='25' alt='Made Tech' />
-            </a>
-          </div> */}
 
           <nav className='col-5 col-lg-8 text-right'>
             <a className='footer__social_link' href='https://www.madetech.com/ext/linkedin'>
