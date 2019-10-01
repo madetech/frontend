@@ -8503,10 +8503,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
-  font-family: "neuzeit-s-book";
-  src: url("../fonts/neuzeit-s-book.eot");
-  src: url("../fonts/neuzeit-s-book.eot?#iefix") format("embedded-opentype"), url("../fonts/neuzeit-s-book.woff") format("woff"), url("../fonts/neuzeit-s-book.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "poppins";
+  src: url("../fonts/poppins.eot");
+  src: url("../fonts/poppins.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins.woff") format("woff"), url("../fonts/poppins.ttf") format("truetype");
+  font-weight: 800;
   font-style: normal;
   font-variant: normal;
   font-display: swap;
@@ -8547,7 +8547,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "neuzeit-s-book", Helvetica, Arial, sans-serif;
+  font-family: "poppins", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 0;

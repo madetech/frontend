@@ -39,7 +39,7 @@ madetech-frontend.zip
     ├── fonts/
     │   ├── neuzeit-gro-bold.{eot,ttf,woff}
     │   ├── neuzeit-gro-reg.{eot,ttf,woff}
-    │   └── neuzeit-s-book.{eot,ttf,woff}
+    │   └── poppins.{eot,ttf,woff}
     ├── images/
     │   ├── favicon.ico
     │   ├── made-tech-logo-blk.png
