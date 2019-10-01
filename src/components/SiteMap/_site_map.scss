@@ -1,11 +1,7 @@
 .site_map {
   background: #333;
   color: #999;
-  padding: 3rem 0 2rem 0;
-
-  nav {
-    margin-bottom: 2rem;
-  }
+  padding: 4.8rem 0 2rem 0;
 
   p {
     margin-bottom: .5rem;
@@ -19,15 +15,31 @@
     color: #999;
     display: block;
     margin-bottom: .5rem;
-    text-decoration: underline;
-    font-size: .8rem;
+    text-decoration: none;
 
     &:focus, &:hover {
       color: #ddd;
     }
 
     @include media-breakpoint-up(md) {
-      font-size: .9rem;
+      // font-size: .9rem;
     }
   }
+}
+
+.map_header {
+  margin-bottom: 4.7rem;
+}
+
+.nav_links {
+  font-size: $px14;
+  border-bottom: 2px rgba(white, 0.1) solid;
+  border-top: 2px rgba(white, 0.1) solid;
+  padding-top: 4.7rem;
+  padding-bottom: 2.5rem;
+}
+
+.tagline {
+  color: $mt-green;
+  font-size: $px24;
 }
