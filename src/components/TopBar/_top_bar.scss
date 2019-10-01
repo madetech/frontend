@@ -1,14 +1,14 @@
 .top_bar {
   background: #252525;
   color: $mt-green;
-  font-size: .7rem;
+  font-size: $px13;
   min-height: 3.16rem;
   display: -webkit-flex;
   display: flex;
   align-items: center;
 
   a {
-    font-size: 0.74;
+    font-size: $px14;
     color: #ddd;
 
     &:focus, &:hover {
