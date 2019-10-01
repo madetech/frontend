@@ -5,13 +5,14 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
   margin-right: 1rem !important;
-  border-bottom: solid 3px transparent;
+  border: solid 3px 0 transparent;
   line-height: 1.1;
   font-weight: 600;
 
   &:hover,
   &:focus {
     text-decoration: none;
+    border-top: solid 3px transparent;
     border-bottom: solid 3px $mt-green;
   }
 
