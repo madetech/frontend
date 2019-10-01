@@ -11,7 +11,7 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    border-bottom: solid 3px #40c842;
+    border-bottom: solid 3px $mt-green;
   }
 
   @include media-breakpoint-up(md) {
