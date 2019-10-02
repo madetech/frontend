@@ -19,7 +19,7 @@ export default function SiteMap () {
         </div>
         
         <div className='row nav_links'>
-          <div className='col-lg-4 col-md-4'>
+          <div className='col-lg-4 col-md-4 col-6'>
             <nav>
               <p><strong>Our Services</strong></p>
 
@@ -30,7 +30,7 @@ export default function SiteMap () {
             </nav>
           </div>
 
-          <div className='col-lg-2 offset-lg-1 col-md-3 offset-md-1'>
+          <div className='col-lg-2 offset-lg-1 col-md-3 offset-md-1 col-6'>
             <nav>
               <p><strong>Resources</strong></p>
 
@@ -40,7 +40,7 @@ export default function SiteMap () {
             </nav>
           </div>
 
-          <div className='col-lg-2 offset-lg-3 col-md-3 offset-md-1'>
+          <div className='col-lg-2 offset-lg-3 col-md-3 offset-md-1 col-6'>
             <nav>
               <p><strong>Company</strong></p>
 
@@ -53,7 +53,7 @@ export default function SiteMap () {
         </div>
 
         <div className='row'>
-            <div className="col-lg-12 logos">
+            <div className="col-12 logos">
               <img src={crownSrc} height='60' alt='Crown Commercial Service' />
               <img src={cyberSrc} height='60' alt='Cyber Essentials Plus' />
               <img src={isoSrc} height='60' alt='ISO 27001' />

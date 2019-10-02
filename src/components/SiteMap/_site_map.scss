@@ -40,8 +40,11 @@
   font-size: $px14;
   border-bottom: 2px rgba(white, 0.1) solid;
   border-top: 2px rgba(white, 0.1) solid;
-  padding-top: 4.7rem;
-  padding-bottom: 2.5rem;
+  padding: 4.7rem 0 2.5rem 0;
+
+  @include media-breakpoint-up(xs) {
+    padding: 2rem 0 2rem 0;
+  }
 }
 
 .tagline {
@@ -63,5 +66,10 @@
 
   img {
     padding-right: 6.7rem;
+
+    @include media-breakpoint-up(xs) {
+      max-height: 50px;
+      padding-right: 0.9rem;
+    }
   }
 }
