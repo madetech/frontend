@@ -48,6 +48,16 @@
   @include media-breakpoint-up(xs) {
     padding: 2rem 0;
   }
+
+  .sitemap__company {
+    @include media-breakpoint-up(sm) {
+      padding-top: 0;
+    }
+
+    @include media-breakpoint-up(xs) {
+      padding-top: 30px;
+    }
+  }
 }
 
 .tagline {
