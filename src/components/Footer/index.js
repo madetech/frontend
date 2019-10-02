@@ -8,11 +8,11 @@ export default function Footer () {
     <footer className='footer'>
       <div className='container'>
         <div className='row'>
-          <div className='col-7 col-lg-4 d-lg-block'>
+          <div className='col-12 text-center col-lg-4 text-lg-left d-lg-block footer__copyright_notice'>
             © <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech</span></span> <span itemProp='copyrightYear'>2019</span>
           </div>
 
-          <nav className='col-5 col-lg-8 text-right'>
+          <nav className='col-12 text-center col-lg-8 text-lg-right footer__social_wrapper'>
             <a className='footer__social_link' href='https://www.madetech.com/ext/linkedin'>
               <img src={linkedinSrc} alt='LinkedIn' height='25' />
             </a>

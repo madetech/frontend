@@ -10,6 +10,7 @@
 }
 
 .footer__social_link {
+  margin-left: $px14;
   img {
     height: 20px;
     opacity: 1;
@@ -25,6 +26,15 @@
   }
 }
 
-.footer__social_link {
-  margin-left: $px14;
+.footer__social_wrapper {
+  @include media-breakpoint-up(xs) {
+    padding: 0.8rem 0;
+    background: #333;
+  }
+}
+
+.footer__copyright_notice {
+  @include media-breakpoint-up(xs) {
+    padding-bottom: 0.8rem;
+  }
 }
