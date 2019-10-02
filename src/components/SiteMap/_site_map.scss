@@ -21,10 +21,6 @@
     &:focus, &:hover {
       color: #ddd;
     }
-
-    @include media-breakpoint-up(md) {
-      // font-size: .9rem;
-    }
   }
 }
 
@@ -43,6 +39,10 @@
 .tagline {
   color: $mt-green;
   font-size: $px24;
+
+  @include media-breakpoint-up(md) {
+    font-size: $px20;
+  }
 }
 
 .logos {
