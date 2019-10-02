@@ -8,13 +8,13 @@ export default function Footer () {
     <footer className='footer'>
       <div className='container'>
         <div className='row'>
-          <div className='col-12 text-center col-lg-4 text-lg-left d-lg-block footer__copyright_notice'>
+          <div className='col-12 text-center col-sm-6 text-sm-left d-sm-block footer__copyright_notice'>
             © <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech</span></span> <span itemProp='copyrightYear'>2019</span>
             <span> | </span>
             <a href="https://www.madetech.com/privacy">Privacy Policy</a>
           </div>
 
-          <nav className='col-12 text-center col-lg-8 text-lg-right footer__social_wrapper'>
+          <nav className='col-12 text-center col-sm-6 text-sm-right footer__social_wrapper'>
             <a className='footer__social_link' href='https://www.madetech.com/ext/linkedin'>
               <img src={linkedinSrc} alt='LinkedIn' height='25' />
             </a>
