@@ -1,5 +1,8 @@
 import React from 'react'
 import logoSrc from '@madetech/marketing-assets/logos/made-tech-logo-wht.png'
+import crownSrc from '../../../dist/images/certifications/logo-crown-commercial-service.png'
+import cyberSrc from '../../../dist/images/certifications/logo-cyber-essentials-plus.png'
+import isoSrc from '../../../dist/images/certifications/logo-ISO-cert.png'
 
 export default function SiteMap () {
   return (
@@ -48,6 +51,14 @@ export default function SiteMap () {
             </nav>
           </div>
         </div>
+
+        <div className='row'>
+            <div className="col-lg-12 logos">
+              <img src={crownSrc} height='60' alt='Crown Commercial Service' />
+              <img src={cyberSrc} height='60' alt='Cyber Essentials Plus' />
+              <img src={isoSrc} height='60' alt='ISO 27001' />
+            </div>
+          </div>
       </div>
     </div>
   )
