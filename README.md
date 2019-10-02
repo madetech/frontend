@@ -37,9 +37,9 @@ madetech-frontend.zip
     │   ├── madetech-frontend.min.css
     │   └── madetech-frontend.min.css.map
     ├── fonts/
-    │   ├── neuzeit-gro-bold.{eot,ttf,woff}
-    │   ├── neuzeit-gro-reg.{eot,ttf,woff}
-    │   └── neuzeit-s-book.{eot,ttf,woff}
+    │   ├── montserrat-bold.{eot,ttf,woff}
+    │   ├── montserrat-reg.{eot,ttf,woff}
+    │   └── poppins.{eot,ttf,woff}
     ├── images/
     │   ├── favicon.ico
     │   ├── made-tech-logo-blk.png

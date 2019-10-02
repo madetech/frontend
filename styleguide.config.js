@@ -40,7 +40,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      base: '"neuzeit-gro-reg", Helvetica, Arial, sans-serif'
+      base: '"montserrat-reg", Helvetica, Arial, sans-serif'
     },
     fontSize: {
       base: 18,

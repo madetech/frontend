@@ -8,8 +8,9 @@ dist:
 	mkdir -p dist/{css,fonts,js,images}
 	mkdir -p dist/images/icons
 	cp node_modules/@madetech/marketing-assets/fonts/neuzeit*.{eot,ttf,woff} dist/fonts
-	cp node_modules/@madetech/marketing-assets/logos/* dist/images
-	cp node_modules/@madetech/marketing-assets/icons/* dist/images/icons
+	cp node_modules/@madetech/marketing-assets/logos/*.png dist/images
+	cp node_modules/@madetech/marketing-assets/logos/certifications/*.png dist/images
+	cp node_modules/@madetech/marketing-assets/icons/*.png dist/images/icons
 	npm run sass:build
 
 	touch dist/js/madetech-frontend.js

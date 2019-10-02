@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
+  --font-family-sans-serif: "montserrat-reg", Helvetica, Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
+  font-family: "montserrat-reg", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5193,7 +5193,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
+  font-family: "montserrat-reg", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5306,7 +5306,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
+  font-family: "montserrat-reg", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8503,19 +8503,19 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
-  font-family: "neuzeit-s-book";
-  src: url("../fonts/neuzeit-s-book.eot");
-  src: url("../fonts/neuzeit-s-book.eot?#iefix") format("embedded-opentype"), url("../fonts/neuzeit-s-book.woff") format("woff"), url("../fonts/neuzeit-s-book.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "poppins";
+  src: url("../fonts/poppins.eot");
+  src: url("../fonts/poppins.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins.woff") format("woff"), url("../fonts/poppins.ttf") format("truetype");
+  font-weight: 800;
   font-style: normal;
   font-variant: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "neuzeit-gro-reg";
-  src: url("../fonts/neuzeit-gro-reg.eot");
-  src: url("../fonts/neuzeit-gro-reg.eot?#iefix") format("embedded-opentype"), url("../fonts/neuzeit-gro-reg.woff") format("woff"), url("../fonts/neuzeit-gro-reg.ttf") format("truetype");
+  font-family: "montserrat-reg";
+  src: url("../fonts/montserrat-reg.eot");
+  src: url("../fonts/montserrat-reg.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-reg.woff") format("woff"), url("../fonts/montserrat-reg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
@@ -8523,9 +8523,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
-  font-family: "neuzeit-gro-bold";
-  src: url("../fonts/neuzeit-gro-bold.eot");
-  src: url("../fonts/neuzeit-gro-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/neuzeit-gro-bold.woff") format("woff"), url("../fonts/neuzeit-gro-bold.ttf") format("truetype");
+  font-family: "montserrat-bold";
+  src: url("../fonts/montserrat-bold.eot");
+  src: url("../fonts/montserrat-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
@@ -8547,7 +8547,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "neuzeit-s-book", Helvetica, Arial, sans-serif;
+  font-family: "poppins", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 0;
@@ -8674,7 +8674,7 @@ blockquote::before {
 }
 
 .header_logo_type__text {
-  font-family: "neuzeit-gro-bold";
+  font-family: "montserrat-bold";
   font-size: 1.75rem;
   font-weight: normal;
 }
@@ -8775,7 +8775,7 @@ blockquote::before {
 }
 
 .jumbotron small a {
-  font-family: "neuzeit-gro-reg", Helvetica, Arial, sans-serif;
+  font-family: "montserrat-reg", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }

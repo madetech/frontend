@@ -1,37 +1,35 @@
 import React from 'react'
+import logoSrc from '@madetech/marketing-assets/logos/made-tech-logo-colour-white.png'
+import crownSrc from '@madetech/marketing-assets/logos/certifications/logo-crown-commercial-service.png'
+import cyberSrc from '@madetech/marketing-assets/logos/certifications/logo-cyber-essentials-plus.png'
+import isoSrc from '@madetech/marketing-assets/logos/certifications/logo-ISO-cert.png'
 
 export default function SiteMap () {
   return (
     <div className='site_map'>
       <div className='container'>
-        <div className='row'>
-          <div className='col-lg-5 mb-4'>
-            <p><strong>About Made Tech</strong></p>
-
-            <p>Our mission is to improve software delivery in every organisation. We work with our customers to deliver modern applications and help them move to a faster, leaner, and more agile software delivery model.</p>
+        <div className='row map_header'>
+          <div className="col-lg-2 col-sm-2 col-12">
+            <img src={logoSrc} height='19' alt='Made Tech' />
           </div>
-
-          <div className='col-6 col-lg-3 offset-lg-1'>
+          <div className="col-lg-7 offset-lg-3 col-sm-6 offset-sm-4 col-12 tagline">
+            Made Tech is a high-growth provider of Digital, Data and Technology services for the UK Public Sector
+          </div>
+        </div>
+        
+        <div className='row nav_links'>
+          <div className='col-lg-4 col-sm-4 col-6'>
             <nav>
-              <p><strong>Sectors</strong></p>
+              <p><strong>Our Services</strong></p>
 
-              <a href="/publicsector">Public Sector</a>
-              <a href="/retail">Retail</a>
-              <a href="/startups">Startups</a>
-            </nav>
-
-            <nav>
-              <p><strong>Services</strong></p>
-
-              <a href="/agile-transformation">Agile Team Transformation</a>
-              <a href="/software-development">Software Development</a>
-              <a href="/continuous-delivery">Continuous Delivery</a>
-              <a href="/devops">DevOps</a>
-              <a href="/support-and-maintainance">Support &amp; Maintenance</a>
+              <a href="/our-services/digital-service-delivery">Digital Service Delivery</a>
+              <a href="/our-services/technology-skill-enablement">Technology Skills Enablement</a>
+              <a href="/our-services/transform-legacy-applications">Transforming Legacy Applications</a>
+              <a href="/our-services/data-infrastructure">Data Infrastructure &amp; Insights</a>
             </nav>
           </div>
 
-          <div className='col-6 col-lg-2 offset-lg-1'>
+          <div className='col-lg-2 offset-lg-1 col-sm-3 offset-sm-1 col-6'>
             <nav>
               <p><strong>Resources</strong></p>
 
@@ -39,7 +37,9 @@ export default function SiteMap () {
               <a href="/resources/ebook">E-Books</a>
               <a href="https://learn.madetech.com">Learn Tech</a>
             </nav>
+          </div>
 
+          <div className='col-lg-2 offset-lg-3 col-sm-3 offset-sm-1 col-6 sitemap__company'>
             <nav>
               <p><strong>Company</strong></p>
 
@@ -50,6 +50,14 @@ export default function SiteMap () {
             </nav>
           </div>
         </div>
+
+        <div className='row'>
+            <div className="col-12 logos">
+              <img src={crownSrc} height='60' alt='Crown Commercial Service' />
+              <img src={cyberSrc} height='60' alt='Cyber Essentials Plus' />
+              <img src={isoSrc} height='60' alt='ISO 27001' />
+            </div>
+          </div>
       </div>
     </div>
   )

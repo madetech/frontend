@@ -1,12 +1,16 @@
 .top_bar {
   background: #252525;
-  color: #ddd;
-  font-size: .7rem;
-  min-height: .3rem;
+  color: $mt-green;
+  font-size: $px13;
+  min-height: 3.16rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
 
   a {
+    font-size: $px14;
     color: #ddd;
-    text-decoration: underline;
+    font-weight: 600;
 
     &:focus, &:hover {
       color: #fff;
