@@ -73,7 +73,10 @@
   margin-top: 2.5rem; 
 
   img {
-    padding-right: 6.7rem;
+    @include media-breakpoint-up(md){
+      max-height: 60;
+      padding-right: 6.7rem;
+    }
 
     @include media-breakpoint-up(xs) {
       max-height: 50px;
