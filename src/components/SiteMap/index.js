@@ -1,8 +1,8 @@
 import React from 'react'
-import logoSrc from '@madetech/marketing-assets/logos/made-tech-logo-wht.png'
-import crownSrc from '../../../dist/images/certifications/logo-crown-commercial-service.png'
-import cyberSrc from '../../../dist/images/certifications/logo-cyber-essentials-plus.png'
-import isoSrc from '../../../dist/images/certifications/logo-ISO-cert.png'
+import logoSrc from '@madetech/marketing-assets/logos/made-tech-logo-colour-white.png'
+import crownSrc from '@madetech/marketing-assets/logos/certifications/logo-crown-commercial-service.png'
+import cyberSrc from '@madetech/marketing-assets/logos/certifications/logo-cyber-essentials-plus.png'
+import isoSrc from '@madetech/marketing-assets/logos/certifications/logo-ISO-cert.png'
 
 export default function SiteMap () {
   return (
