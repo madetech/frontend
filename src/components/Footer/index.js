@@ -10,6 +10,8 @@ export default function Footer () {
         <div className='row'>
           <div className='col-12 text-center col-lg-4 text-lg-left d-lg-block footer__copyright_notice'>
             © <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech</span></span> <span itemProp='copyrightYear'>2019</span>
+            <span> | </span>
+            <a href="https://www.madetech.com/privacy">Privacy Policy</a>
           </div>
 
           <nav className='col-12 text-center col-lg-8 text-lg-right footer__social_wrapper'>
