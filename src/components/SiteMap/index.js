@@ -10,10 +10,10 @@ export default function SiteMap () {
       <div className='container'>
         <div className='row map_header'>
           {/* <div className='col-7 col-lg-4 text-left text-lg-center'> */}
-          <div className="col-lg-2 col-md-2">
+          <div className="col-lg-2 col-md-2 col-12">
             <img src={logoSrc} height='19' alt='Made Tech' />
           </div>
-          <div className="col-lg-7 offset-lg-3 col-md-6 offset-md-4 tagline">
+          <div className="col-lg-7 offset-lg-3 col-md-6 offset-md-4 col-12 tagline">
             Made Tech is a high-growth provider of Digital, Data and Technology services for the UK Public Sector
           </div>
         </div>
