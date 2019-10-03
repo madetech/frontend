@@ -1,7 +1,7 @@
 import React from 'react'
-import linkedinSrc from '@madetech/marketing-assets/icons/old/linkedin.svg'
-import twitterSrc from '@madetech/marketing-assets/icons/old/twitter.svg'
-import githubSrc from '@madetech/marketing-assets/icons/old/github.svg'
+import linkedinSrc from '@madetech/marketing-assets/icons/linkedin.svg'
+import twitterSrc from '@madetech/marketing-assets/icons/twitter.svg'
+import githubSrc from '@madetech/marketing-assets/icons/github.svg'
 
 export default function Footer () {
   return (
