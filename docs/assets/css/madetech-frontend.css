@@ -8506,7 +8506,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "poppins";
   src: url("../fonts/poppins.eot");
   src: url("../fonts/poppins.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins.woff") format("woff"), url("../fonts/poppins.ttf") format("truetype");
-  font-weight: 800;
+  font-weight: normal;
   font-style: normal;
   font-variant: normal;
   font-display: swap;
