@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "neuzeit-s-book";
-  src: marketing-font-url("neuzeit-s-book.eot");
-  src: marketing-font-url("neuzeit-s-book.eot?#iefix") format("embedded-opentype"),
-       marketing-font-url("neuzeit-s-book.woff") format("woff"),
-       marketing-font-url("neuzeit-s-book.ttf") format("truetype");
+  font-family: "poppins";
+  src: marketing-font-url("poppins.eot");
+  src: marketing-font-url("poppins.eot?#iefix") format("embedded-opentype"),
+       marketing-font-url("poppins.woff") format("woff"),
+       marketing-font-url("poppins.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
@@ -11,11 +11,11 @@
 }
 
 @font-face {
-  font-family: "neuzeit-gro-reg";
-  src: marketing-font-url("neuzeit-gro-reg.eot");
-  src: marketing-font-url("neuzeit-gro-reg.eot?#iefix") format("embedded-opentype"),
-       marketing-font-url("neuzeit-gro-reg.woff") format("woff"),
-       marketing-font-url("neuzeit-gro-reg.ttf") format("truetype");
+  font-family: "montserrat-reg";
+  src: marketing-font-url("montserrat-reg.eot");
+  src: marketing-font-url("montserrat-reg.eot?#iefix") format("embedded-opentype"),
+       marketing-font-url("montserrat-reg.woff") format("woff"),
+       marketing-font-url("montserrat-reg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
@@ -23,11 +23,11 @@
 }
 
 @font-face {
-  font-family: "neuzeit-gro-bold";
-  src: marketing-font-url("neuzeit-gro-bold.eot");
-  src: marketing-font-url("neuzeit-gro-bold.eot?#iefix") format("embedded-opentype"),
-       marketing-font-url("neuzeit-gro-bold.woff") format("woff"),
-       marketing-font-url("neuzeit-gro-bold.ttf") format("truetype");
+  font-family: "montserrat-bold";
+  src: marketing-font-url("montserrat-bold.eot");
+  src: marketing-font-url("montserrat-bold.eot?#iefix") format("embedded-opentype"),
+       marketing-font-url("montserrat-bold.woff") format("woff"),
+       marketing-font-url("montserrat-bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
