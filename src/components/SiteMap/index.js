@@ -34,7 +34,7 @@ export default function SiteMap () {
               <p><strong>Resources</strong></p>
 
               <a href="/blog">Blog</a>
-              <a href="/resources/ebook">E-Books</a>
+              <a href="/resources/books">Books</a>
               <a href="https://learn.madetech.com">Learn Tech</a>
             </nav>
           </div>
