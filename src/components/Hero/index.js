@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Hero ({ backgroundColour, children }) {
+export default function Hero ({ children }) {
   return (
-    <div className={`hero ${backgroundColour}`}>
+    <div className='hero'>
       {children}
     </div>
   )
