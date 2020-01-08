@@ -17,7 +17,7 @@
   }
 
   @include media-breakpoint-up(md) {
-    font-size: .9rem;
+    font-size: $px16;
     padding-right: 0 !important;
     margin-right: 2rem !important;
 
