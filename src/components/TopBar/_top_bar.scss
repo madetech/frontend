@@ -31,10 +31,8 @@
 }
 
 .top_bar__item {
-  &:not(:last-child)::after {
-    content: '\2022';
-    color: #999;
-    margin-left: 6px;
-    margin-right: 9px;
+  &:not(:last-child) {
+    position: relative;
+    margin-right: 55px;
   }
 }
