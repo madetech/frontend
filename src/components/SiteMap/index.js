@@ -61,7 +61,7 @@ export default function SiteMap () {
             <nav>
               <p><strong>Case Studies</strong></p>
               
-              <a href="/case-study">MoJ</a>
+              <a href="/case-study">Ministry of Justice</a>
             </nav>
           </div>
 
