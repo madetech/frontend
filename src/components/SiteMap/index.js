@@ -1,8 +1,9 @@
 import React from 'react'
 import logoSrc from '@madetech/marketing-assets/logos/made-tech-logo-colour-white.png'
 import crownSrc from '@madetech/marketing-assets/logos/certifications/logo-crown-commercial-service.png'
-import cyberSrc from '@madetech/marketing-assets/logos/certifications/logo-cyber-essentials-plus.png'
-import isoSrc from '@madetech/marketing-assets/logos/certifications/logo-ISO-cert.png'
+import cyberSrc from '@madetech/marketing-assets/logos/certifications/logo-cyber-essentials-plus-white.png'
+import iso9001Src from '@madetech/marketing-assets/logos/certifications/iso-badge-9001.png'
+import iso27001Src from '@madetech/marketing-assets/logos/certifications/iso-badge-27001.png'
 
 export default function SiteMap () {
   return (
@@ -77,10 +78,11 @@ export default function SiteMap () {
           </div>
         </div>
         <div className='row'>
-          <div className="col-12 logos">
-            <img src={crownSrc} height='60' alt='Crown Commercial Service' />
-            <img src={cyberSrc} height='60' alt='Cyber Essentials Plus' />
-            <img src={isoSrc} height='60' alt='ISO 27001' />
+          <div className="col-12 text-center text-sm-left logos">
+            <img src={crownSrc} height='100' alt='Crown Commercial Service' />
+            <img src={cyberSrc} height='100' alt='Cyber Essentials Plus' />
+            <img src={iso9001Src} height='100' alt='ISO 9001' />
+            <img src={iso27001Src} height='100' alt='ISO 27001' />
           </div>
         </div>
       </div>
