@@ -1,23 +1,5 @@
 import React from 'react'
 
-function DefaultLinks () {
-  return (
-    <>
-      <span className='top_bar__item'>
-        <a href='/blog'>Blog</a>
-      </span>
-
-      <span className='top_bar__item'>
-        <a href='/careers'>Careers</a>
-      </span>
-
-      <span className='top_bar__item'>
-        <a href='/contact'>Contact Us</a>
-      </span>
-    </>
-  )
-}
-
 function wrapItem (link) {
   return (
     <span className='top_bar__item'>
@@ -37,7 +19,7 @@ export default function TopBar ({ children }) {
             </div>
 
             <nav>
-              {children ? React.Children.map(children, wrapItem) : <DefaultLinks />}
+              {React.Children.map(children, wrapItem)}
             </nav>
           </div>
         </div>
