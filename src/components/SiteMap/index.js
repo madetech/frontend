@@ -45,7 +45,7 @@ export default function SiteMap () {
             </nav>
           </div>
 
-          <div className='col-lg-2 col-sm-3 col-6'>
+          <div className='col-lg-2 col-sm-3 col-6 sitemap__why-made-tech'>
             <nav>
               <p><strong>Why Made Tech</strong></p>
               
@@ -58,7 +58,7 @@ export default function SiteMap () {
             </nav>
           </div>        
 
-          <div className='col-lg-2 col-sm-3 col-6'>
+          <div className='col-lg-2 col-sm-3 col-6 sitemap__case-studies'>
             <nav>
               <p><strong>Case Studies</strong></p>
               
@@ -67,7 +67,7 @@ export default function SiteMap () {
           </div>
 
 
-          <div className='col-lg-2 col-sm-3 col-6'>
+          <div className='col-lg-2 col-sm-3 col-6 sitemap__get-in-touch'>
             <nav>
               <p><strong>Get in touch</strong></p>
               

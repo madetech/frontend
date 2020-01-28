@@ -50,8 +50,19 @@
     padding: 2rem 0;
   }
 
-  .sitemap__company {
+  .sitemap__why-made-tech,
+  .sitemap__case-studies {
     @include media-breakpoint-up(sm) {
+      padding-top: 0;
+    }
+
+    @include media-breakpoint-up(xs) {
+      padding-top: 30px;
+    }
+  }
+
+  .sitemap__get-in-touch {
+    @include media-breakpoint-up(lg) {
       padding-top: 0;
     }
 
