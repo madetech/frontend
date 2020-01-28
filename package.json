@@ -1,6 +1,6 @@
 {
   "name": "@madetech/frontend",
-  "version": "5.10.4",
+  "version": "5.10.5",
   "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
   "main": "lib/index.js",
   "repository": {
