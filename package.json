@@ -1,6 +1,6 @@
 {
   "name": "@madetech/frontend",
-  "version": "5.10.2",
+  "version": "5.10.4",
   "description": "A collection of components and resources for creating Made Tech branded sites and applications.",
   "main": "lib/index.js",
   "repository": {
@@ -25,7 +25,7 @@
   "author": "Made Tech <hello@madetech.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@madetech/marketing-assets": "^1.5.0",
+    "@madetech/marketing-assets": "^1.6.0",
     "bootstrap": "^4.4.1",
     "reactstrap": "^6.5.0"
   },
