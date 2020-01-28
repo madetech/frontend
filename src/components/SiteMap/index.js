@@ -19,39 +19,64 @@ export default function SiteMap () {
         </div>
         
         <div className='row nav_links'>
-          <div className='col-lg-4 col-sm-4 col-6'>
+          <div className='col-lg-2 col-sm-3 col-6'>
             <nav>
               <p><strong>Our Services</strong></p>
 
-              <a href="/our-services/digital-service-delivery">Digital Service Delivery</a>
-              <a href="/our-services/technology-skill-enablement">Technology Skills Enablement</a>
-              <a href="/our-services/transform-legacy-applications">Transforming Legacy Applications</a>
-              <a href="/our-services/data-infrastructure">Data Infrastructure &amp; Insights</a>
+              <a href="/our-services/digital-service-delivery">Digital</a>
+              <a href="/our-services/data-infrastructure">Data</a>
+              <a href="/our-services/technology-skill-enablement">Tech capability</a>
+              <a href="/our-services/transform-legacy-applications">Tech Legacy</a>
             </nav>
           </div>
 
-          <div className='col-lg-2 offset-lg-1 col-sm-3 offset-sm-1 col-6'>
+          <div className='col-lg-2 col-sm-3 col-6'>
             <nav>
-              <p><strong>Resources</strong></p>
+              <p><strong>Sectors</strong></p>
+              
+              <a href="/sectors/central-government CHECK">Central Gov.</a>
+              <a href="/sectors/local-government">Local Gov.</a>
+              <a href="/sectors/housing">Housing</a>
+              <a href="/sectors/healthcare">Health</a>
+              <a href="/sectors/transport">Transport</a>
+              <a href="/sectors/education">Education</a>
+              <a href="/sectors/police-justice-emergency">Police, Justice &#38; Emergencey</a>
+              <a href="/sectors/space-defence-security">Space, Defence &#38; Security</a>
+            </nav>
+          </div>
 
+          <div className='col-lg-2 col-sm-3 col-6 sitemap__why-made-tech'>
+            <nav>
+              <p><strong>Why Made Tech</strong></p>
+              
+              <a href="/our-purpose">Purpose &#38; Misson</a>
+              <a href="/frameworks">Frameworks</a>
+              <a href="/partners">Partners</a>
               <a href="/blog">Blog</a>
               <a href="/resources/books">Books</a>
-              <a href="https://learn.madetech.com">Learn Tech</a>
+              <a href='https://learn.madetech.com'>Learn</a>
+            </nav>
+          </div>        
+
+          <div className='col-lg-2 col-sm-3 col-6 sitemap__case-studies'>
+            <nav>
+              <p><strong>Case Studies</strong></p>
+              
+              <a href="/case-study">Ministry of Justice</a>
             </nav>
           </div>
 
-          <div className='col-lg-2 offset-lg-3 col-sm-3 offset-sm-1 col-6 sitemap__company'>
-            <nav>
-              <p><strong>Company</strong></p>
 
-              <a href="/careers/academy">Academy</a>
+          <div className='col-lg-2 col-sm-3 col-6 sitemap__get-in-touch'>
+            <nav>
+              <p><strong>Get in touch</strong></p>
+              
+              <a href="/contact">Contact us</a>
               <a href="/careers">Careers</a>
-              <a href="/contact">Contact Us</a>
-              <a href="/ext/handbook">Handbook</a>
+              <a href="/made-academy">Academy</a>
             </nav>
           </div>
         </div>
-
         <div className='row'>
           <div className="col-12 text-center text-sm-left logos">
             <img src={crownSrc} height='100' alt='Crown Commercial Service' />
