@@ -14,10 +14,6 @@
   blockquote {
     margin: 3rem 0 0 0;
 
-    p {
-      font-style: italic;
-    }
-
     @include media-breakpoint-up(md) {
       margin-left: 3rem;
     }
