@@ -74,10 +74,9 @@
 
 .tagline {
   color: $mt-green;
-
-  @include media-breakpoint-up(lg) {
-    margin-top: 0;
-    font-size: $px24;
+  @include media-breakpoint-up(xs) {
+    margin-top: 2.6rem;
+    font-size: $px18;
   }
 
   @include media-breakpoint-up(sm) {
@@ -85,9 +84,14 @@
     font-size: $px20;
   }
 
-  @include media-breakpoint-up(xs) {
-    margin-top: 2.6rem;
-    font-size: $px18;
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+    font-size: $px20;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 0;
+    font-size: $px24;
   }
 }
 
