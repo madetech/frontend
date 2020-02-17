@@ -20,15 +20,25 @@
     color: $black;
   }
 
+  h1.orange {
+    color: $orange;
+  }
+
   div.hero_green {
-    box-shadow: 20px 20px $mt-green;}
+    box-shadow: 20px 20px $mt-green;
+  }
   
   div.hero_white {
-    box-shadow: 20px 20px $white;}
+    box-shadow: 20px 20px $white;
+  }
   
   div.hero_black {
     box-shadow: 20px 20px $black;
-  } 
+  }
+
+  div.hero_orange {
+    box-shadow: 20px 20px $orange;
+  }
 }
 
 .contentful-hero__breadcrumb {
