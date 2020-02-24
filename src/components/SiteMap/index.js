@@ -5,7 +5,113 @@ import cyberSrc from '@madetech/marketing-assets/logos/certifications/logo-cyber
 import iso9001Src from '@madetech/marketing-assets/logos/certifications/iso-badge-9001.png'
 import iso27001Src from '@madetech/marketing-assets/logos/certifications/iso-badge-27001.png'
 
-export default function SiteMap () {
+export default function SiteMap ({ navLinks }) {
+  let siteMapNavLinks
+  let defaultNavLinks =
+  [
+    { sectionTitle: 'Our Services',
+      links:[
+        {
+          text: 'Digital Service Delivery',
+          link:'/our-services/digital-service-delivery'
+        },
+        {
+          text: 'Data Infrastructure & Insights',
+          link:'/our-services/data-infrastructure'
+        },
+        {
+          text: 'Technology Skills Enablement',
+          link:'/our-services/technology-skill-enablement'
+        },
+        {
+          text: 'Transforming Legacy Applications',
+          link:'/our-services/transform-legacy-applications'
+        }
+      ],
+      bootstrapSizes: 'col-lg-4 col-sm-4 col-6'
+    },
+    { sectionTitle: 'Resources',
+      links:[
+        {
+          text: 'Blog',
+          link:'/blog'
+        },
+        {
+          text: 'Books',
+          link:'/resources/books'
+        },
+        {
+          text: 'Learn',
+          link:'https://learn.madetech.com'
+        }
+      ],
+      bootstrapSizes: 'col-lg-2 offset-lg-1 col-sm-3 offset-sm-1 col-6'
+    },
+    { sectionTitle: 'Company',
+      links:[
+        {
+          text: 'Academy',
+          link:'/careers/academy'
+        },
+        {
+          text: 'Careers',
+          link:'/careers'
+        },
+        {
+          text: 'Contact Us',
+          link:'/contact'
+        },
+        {
+          text: 'Handbook',
+          link:'/ext/handbook'
+        }
+      ],
+      bootstrapSizes: 'col-lg-2 offset-lg-3 col-sm-3 offset-sm-1 col-6',
+      class: 'sitemap__company'
+    }
+  ]
+
+  if (navLinks) {
+    siteMapNavLinks = navLinks
+  } else {
+    siteMapNavLinks = defaultNavLinks
+  }
+
+  let navLinksComponent = siteMapNavLinks.map(section => {
+    return (
+      navLinksSectionMaker(section)
+      )
+    }
+  )
+
+  function navLinksSectionMaker(section) {
+    let title = section.sectionTitle
+    let links = section.links
+    let classNames = 'col-lg-2 col-sm-3 col-6'
+
+    if (section.bootstrapSizes) {
+      classNames = section.bootstrapSizes
+    }
+
+    if (section.class) {
+      classNames += ' ' + section.class
+    }
+
+    return (
+      <div className={classNames}>
+        <nav>
+          <p><strong>{title}</strong></p>
+          {links.map(link => {
+            return (
+              <a href={link.link}>{link.text}</a>
+            )
+          })}
+        </nav>
+        <br/>
+      </div>
+    )
+   }
+
   return (
     <div className='site_map'>
       <div className='container'>
@@ -17,66 +123,11 @@ export default function SiteMap () {
             Made Tech is a high-growth provider of Digital, Data and Technology services for the UK Public Sector
           </div>
         </div>
-        
+
         <div className='row nav_links'>
-          <div className='col-lg-2 col-sm-3 col-6'>
-            <nav>
-              <p><strong>Our Services</strong></p>
-
-              <a href="/our-services/digital-service-delivery">Digital</a>
-              <a href="/our-services/data-infrastructure">Data</a>
-              <a href="/our-services/technology-skill-enablement">Tech capability</a>
-              <a href="/our-services/transform-legacy-applications">Tech Legacy</a>
-            </nav>
-          </div>
-
-          <div className='col-lg-2 col-sm-3 col-6'>
-            <nav>
-              <p><strong>Sectors</strong></p>
-              
-              <a href="/sectors/central-government CHECK">Central Gov.</a>
-              <a href="/sectors/local-government">Local Gov.</a>
-              <a href="/sectors/housing">Housing</a>
-              <a href="/sectors/healthcare">Health</a>
-              <a href="/sectors/transport">Transport</a>
-              <a href="/sectors/education">Education</a>
-              <a href="/sectors/police-justice-emergency">Police, Justice &#38; Emergencey</a>
-              <a href="/sectors/space-defence-security">Space, Defence &#38; Security</a>
-            </nav>
-          </div>
-
-          <div className='col-lg-2 col-sm-3 col-6 sitemap__why-made-tech'>
-            <nav>
-              <p><strong>Why Made Tech</strong></p>
-              
-              <a href="/our-purpose">Purpose &#38; Misson</a>
-              <a href="/frameworks">Frameworks</a>
-              <a href="/partners">Partners</a>
-              <a href="/blog">Blog</a>
-              <a href="/resources/books">Books</a>
-              <a href='https://learn.madetech.com'>Learn</a>
-            </nav>
-          </div>        
-
-          <div className='col-lg-2 col-sm-3 col-6 sitemap__case-studies'>
-            <nav>
-              <p><strong>Case Studies</strong></p>
-              
-              <a href="/case-study">Ministry of Justice</a>
-            </nav>
-          </div>
-
-
-          <div className='col-lg-2 col-sm-3 col-6 sitemap__get-in-touch'>
-            <nav>
-              <p><strong>Get in touch</strong></p>
-              
-              <a href="/contact">Contact us</a>
-              <a href="/careers">Careers</a>
-              <a href="/made-academy">Academy</a>
-            </nav>
-          </div>
+          {navLinksComponent}
         </div>
+
         <div className='row'>
           <div className="col-12 text-center text-sm-left logos">
             <img src={crownSrc} height='100' alt='Crown Commercial Service' />
