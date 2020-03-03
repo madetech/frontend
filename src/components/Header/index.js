@@ -26,7 +26,7 @@ export default function Header ({ constrainLinkWidth, children, logoBy, logoHref
   return (
     <header className='header'>
       <div className='header__inner'>
-        <Navbar expand className='p-0 flex-column flex-lg-row'>
+        <Navbar expand className='p-0 flex-row flex-sm-column flex-lg-row'>
           <div className='mr-lg-auto'>
             <HeaderLogo
               logoBy={logoBy}
