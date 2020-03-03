@@ -4,7 +4,12 @@
 
 .header__inner {
   nav {
-    min-height: 5.684rem;
+    height: 86px;
+    
+    @include media-breakpoint-up(sm) {
+      min-height: 5.684rem;
+      height: auto;
+    }
   }
 }
 
