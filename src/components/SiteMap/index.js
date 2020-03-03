@@ -120,7 +120,7 @@ export default function SiteMap ({ navLinks }) {
             <img src={logoSrc} height='19' alt='Made Tech' />
           </div>
           <div className="col-lg-7 offset-lg-3 col-sm-6 offset-sm-4 col-12 tagline">
-            Made Tech is a high-growth provider of Digital, Data and Technology services for the UK Public Sector
+            Made Tech provide Digital, Data and Technology services to the UK public sector
           </div>
         </div>
 
