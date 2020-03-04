@@ -9,23 +9,23 @@ export default function SiteMap ({ navLinks }) {
   let siteMapNavLinks
   let defaultNavLinks =
   [
-    { sectionTitle: 'Our Services',
+    { sectionTitle: 'Services',
       links:[
         {
           text: 'Digital Service Delivery',
-          link:'/our-services/digital-service-delivery'
+          link:'/services/digital'
         },
         {
           text: 'Data Infrastructure & Insights',
-          link:'/our-services/data-infrastructure'
+          link:'/services/data'
         },
         {
           text: 'Technology Skills Enablement',
-          link:'/our-services/technology-skill-enablement'
+          link:'/services/capability'
         },
         {
           text: 'Transforming Legacy Applications',
-          link:'/our-services/transform-legacy-applications'
+          link:'/services/legacy'
         }
       ],
       bootstrapSizes: 'col-lg-4 col-sm-4 col-6'
