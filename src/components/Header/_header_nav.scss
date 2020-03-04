@@ -16,14 +16,8 @@
     border-bottom: solid 3px $mt-green;
   }
 
-  @include media-breakpoint-up(md) {
-    font-size: .9rem;
-    padding-right: 0 !important;
-    margin-right: 2rem !important;
-
-    &:last-child {
-      margin-right: 0 !important;
-    }
+  @media (max-width: 576px) {
+    display: none;
   }
 }
 
