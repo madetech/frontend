@@ -15,6 +15,16 @@
 
 .header__logo {
   padding: .7rem 0;
+
+  @media (max-width: 576px) {
+    padding: 0;
+
+    img {
+      position: absolute;
+      top: 35px;
+      left: 0;
+    }
+  }
 }
 
 .header__logo_link,
