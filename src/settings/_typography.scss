@@ -1,6 +1,10 @@
-$font-family-sans-serif: "montserrat-reg", Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap");
+
+$font-family-sans-serif: "montserrat", Helvetica, Arial, sans-serif;
 $font-family-sans-serif--special: "poppins", Helvetica, Arial, sans-serif;
 $font-weight-bolder: 900;
+$font-weight-semi-bold: 600;
 $paragraph-margin-bottom: 1.5rem;
 
 $px80: 4.21rem;
