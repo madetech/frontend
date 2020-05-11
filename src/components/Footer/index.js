@@ -15,15 +15,15 @@ export default function Footer () {
           </div>
 
           <nav className='col-12 text-center col-sm-6 text-sm-right footer__social_wrapper'>
-            <a className='footer__social_link' href='https://www.madetech.com/ext/linkedin'>
+            <a className='footer__social_link' href='https://www.linkedin.com/company/madetech'>
               <img src={linkedinSrc} alt='LinkedIn' height='25' />
             </a>
 
-            <a className='footer__social_link' href='https://www.madetech.com/ext/twitter'>
+            <a className='footer__social_link' href='https://twitter.com/madetech'>
               <img src={twitterSrc} alt='Twitter' height='25' />
             </a>
 
-            <a className='footer__social_link' href='https://www.madetech.com/ext/github'>
+            <a className='footer__social_link' href='https://github.com/madetech'>
               <img src={githubSrc} alt='GitHub' height='25' />
             </a>
           </nav>
