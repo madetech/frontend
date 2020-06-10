@@ -59,6 +59,15 @@ You can download [madetech-frontend.zip](https://github.com/madetech/frontend/re
  - [Get started](https://madetech.github.com/frontend/getting-started)
  - [View available components in our  Styleguide](https://madetech.github.com/frontend/styleguide/)
 
+## Updating npm
+
+Upon making changes to this repository, a new version will need to be published to npm.
+
+Initially you will need to run `npm login` with credentials that have access to the @madetech packages.
+
+Following this, you will need to use a Github API Key to run the following command: `env GITHUB_TOKEN=xxxx npm run release -- minor`
+(Follow these instructions if you need to generate a token from Github: [Generating a personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line))
+
 ## License
 
-Copyright &copy; Made Tech 2018.
+Copyright &copy; Made Tech 2020.
