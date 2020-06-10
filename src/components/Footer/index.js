@@ -4,12 +4,13 @@ import twitterSrc from '@madetech/marketing-assets/icons/twitter.svg'
 import githubSrc from '@madetech/marketing-assets/icons/github.svg'
 
 export default function Footer () {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className='footer'>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center col-sm-6 text-sm-left d-sm-block footer__copyright_notice'>
-            © <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech</span></span> <span itemProp='copyrightYear'>2019</span>
+            © <span itemProp='copyrightHolder' itemScope itemType='http://schema.org/Organization'><span itemProp='name'>Made Tech</span></span> <span itemProp='copyrightYear' data-test='copyrightYear'>{currentYear}</span>
             <span> | </span>
             <a href="https://www.madetech.com/privacy">Privacy Policy</a>
           </div>
