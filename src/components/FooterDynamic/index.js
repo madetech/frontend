@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function FooterTest() {
+export default function FooterDynamic() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className='footer'>
