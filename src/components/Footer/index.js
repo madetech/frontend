@@ -1,9 +1,6 @@
 import React from 'react'
-import linkedinSrc from '@madetech/marketing-assets/icons/linkedin.svg'
-import twitterSrc from '@madetech/marketing-assets/icons/twitter.svg'
-import githubSrc from '@madetech/marketing-assets/icons/github.svg'
 
-export default function Footer () {
+export default function Footer({ children }) {
   const currentYear = new Date().getFullYear();
   return (
     <footer className='footer'>
@@ -16,17 +13,7 @@ export default function Footer () {
           </div>
 
           <nav className='col-12 text-center col-sm-6 text-sm-right footer__social_wrapper'>
-            <a className='footer__social_link' href='https://www.linkedin.com/company/madetech'>
-              <img src={linkedinSrc} alt='LinkedIn' height='25' />
-            </a>
-
-            <a className='footer__social_link' href='https://twitter.com/madetech'>
-              <img src={twitterSrc} alt='Twitter' height='25' />
-            </a>
-
-            <a className='footer__social_link' href='https://github.com/madetech'>
-              <img src={githubSrc} alt='GitHub' height='25' />
-            </a>
+            {children}
           </nav>
         </div>
       </div>
